@@ -1,4 +1,4 @@
-# Basic Todo app
+# Basic Todo app (AngularJS)
 
 This is a basic Todo application, where you can add, remove and highlight a specific item as done.
 
