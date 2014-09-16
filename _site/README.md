@@ -1,4 +1,4 @@
-# Basic Todo app
+# Basic Todo app (AngularJS)
 
 This is a basic Todo application, where you can add, remove and highlight a specific item as done.
 
@@ -8,6 +8,8 @@ This is a basic Todo application, where you can add, remove and highlight a spec
 2. Using SASS as a CSS preprocessor. For fonts the Google Font Roboto is used.
 3. Javascript must be great, modular behaviour, scalable. Showing awesome code splattering off your screen.
 4. Make sure that the TODO application is working fine in IE 9+, Latest Firefox, Chrome and Safari.
+
+*) The initial brief said not to use AngularJS or Backbone, but in this version of the exercise I decided to go with what tools I would use myself.
 
 ## How to use the app
 

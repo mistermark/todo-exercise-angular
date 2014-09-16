@@ -1,13 +1,15 @@
 /* global angular */
 
-// localStorage.setItem("todoist", '[{"name": "Make coffee", "id": 4, "done": false}, {"name": "Buy milk", "id": 3, "done": true}, {"name": "Put out the trash", "id": 2, "done": true}, {"name": "Drink a beer", "id": 1, "done": true}]');
+// localStorage.setItem("todoist-ang", '[{"name": "Make coffee", "id": 4, "done": false}, {"name": "Buy milk", "id": 3, "done": true}, {"name": "Put out the trash", "id": 2, "done": true}, {"name": "Drink a beer", "id": 1, "done": true}]');
 
 /**
  * todoApp Module
  *
  * Description
  */
+
 "use strict";
+
 var app = angular.module("todoApp", []);
 
 
@@ -16,9 +18,16 @@ app.config(["$interpolateProvider", function($interpolateProvider) {
 }]);
 
 
-app.controller("TodoController", ["$scope", "storage", function($scope, storage) {
+app.factory('settings', function(){
+  return {
+    "appname": "todoist-ang"
+  }
+});
 
-  $scope.todos = storage.get("todoist");
+
+app.controller("TodoController", ["$scope", "settings", "storage", function($scope, settings, storage) {
+
+  $scope.todos = storage.get(settings.appname);
 
 }]);
 
@@ -37,8 +46,8 @@ app.directive("todoItem", ["storage", function(storage){
 }]);
 
 
-app.factory("storage", ["$filter", function($filter){
-  var localStore = JSON.parse(localStorage.getItem("todoist"));
+app.factory("storage", ["$filter", "settings", function($filter, settings){
+  var localStore = JSON.parse(localStorage.getItem(settings.appname));
   return {
 
     get: function(sorted) {
@@ -50,10 +59,10 @@ app.factory("storage", ["$filter", function($filter){
     },
     set: function(item) {
       if(item.length > 1) {
-        localStorage.setItem("todoist", JSON.stringify(item));
+        localStorage.setItem(settings.appname, JSON.stringify(item));
       } else {
         localStore.unshift(item);
-        localStorage.setItem("todoist", JSON.stringify(localStore));
+        localStorage.setItem(settings.appname, JSON.stringify(localStore));
       }
     },
     update: function(item) {
@@ -62,7 +71,7 @@ app.factory("storage", ["$filter", function($filter){
           localStore.done = item.done;
         }
       }
-      localStorage.setItem("todoist", JSON.stringify(localStore));
+      localStorage.setItem(settings.appname, JSON.stringify(localStore));
     },
     remove: function(item) {
       for (var i = 0; i < localStore.length; i++) {
@@ -70,7 +79,7 @@ app.factory("storage", ["$filter", function($filter){
           localStore.splice(i, 1);
         }
       }
-      localStorage.setItem("todoist", JSON.stringify(localStore));
+      localStorage.setItem(settings.appname, JSON.stringify(localStore));
     }
 
   };
