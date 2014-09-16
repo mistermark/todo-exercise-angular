@@ -1,0 +1,10 @@
+form {
+  &.newItemForm {
+    display: none;
+  }
+  .input-medium {
+    padding: 0.4em;
+    width: 80%;
+    font-size: 1.2em;
+  }
+}

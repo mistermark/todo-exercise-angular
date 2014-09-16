@@ -1,0 +1,10 @@
+.icon-trash {
+  &:after {
+    content: url("/media/icon-trash.png");
+  }
+}
+.icon-tick {
+  &:after {
+    content: url("/media/icon-check.png");
+  }
+}

@@ -1,0 +1,16 @@
+.footer {
+  .brand__logo {
+    @extend .box;
+    background: transparent url("/media/logo-lbi.png") no-repeat center;
+    width: 106px;
+    height: $footer-height;
+    margin: 0 auto;
+    span {
+      @extend .hide-text;
+    }
+  }
+  .wrap {
+    padding-top: ($wrap-vertical-padding * 1.67);
+    padding-bottom: ($wrap-vertical-padding * 1.67);
+  }
+}

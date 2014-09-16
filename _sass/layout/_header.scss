@@ -1,0 +1,17 @@
+header {
+  background: $red;
+  h2 {
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    background: transparent url("/media/header-unicorn.png") no-repeat top center;
+    padding-top: 92px;
+    margin: 0 auto;
+    display: block;
+    width: 320px;
+  }
+  .btn {
+    float: right;
+    margin-top: 98px;
+  }
+}

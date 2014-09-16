@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+
+  <head>
+    <meta charset="utf-8"/>
+
+    <title>DigitasLBI Exercise "Todo App"</title>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="This is a basic Todo application, where you can add, remove and highlight a specific item as done."/>
+    <link rel="canonical" href="http://markdejong.com/examples/todo-list/"/>
+
+    <!-- Google Fonts API -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet" type="text/css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css"/>
+
+    <script type="text/javascript" src="/scripts/vendor/jquery-1.11.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/scripts/vendor/angular.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/scripts/angular-todo.js" charset="utf-8"></script>
+
+
+</head>
+
+
+  <body>
+
+    <div class="main ng-cloak" ng-controller="TodoController">
+
+      <header class="site-header">
+
+        <div class="wrap">
+
+          <button name="addtodo" type="button" class="btn btn-medium" id="add-todo" todo-addnew="" ng-click="addTodo('#todo-list')">Add</button>
+
+          <h2>add a new todo...</h2>
+
+        </div>
+
+      </header>
+
+
+      <content class="content" role="content" app-init="">
+
+        <div class="wrap">
+  <div class="controls" ng-controls="">
+    <div class="col-4">
+      <button name="complete_all" type="button" class="btn-ctrl btn__complete" ng-click="completeAll()">Complete All</button>
+    </div>
+    <div class="col-4">
+      <span class="status">[[ remaining() ]] Todo items left (out of [[ todos.length ]])</span>
+    </div>
+    <div class="col-4">
+      <button name="clear_complete" type="button" class="btn-ctrl btn__clear" ng-click="clearCompleted()">Clear Completed</button>
+    </div>
+  </div>
+</div>
+
+<div class="todos" id="todo-list">
+      <form name="newItemForm" ng-submit="saveTodo($event)" class="newItemForm">
+      <div class="todo-item add-new">
+        <label for="todo-new" ng-model="newTodo">
+          <div class="col-12 todo-descr">
+            <input type="text" class="todo-name input-medium col-8" placeholder="Enter a title" ng-model="newTodo.name" name="name"/>
+            <input type="hidden" ng-model="newTodo.id" name="id"/>
+            <input type="hidden" ng-model="newTodo.done" value="false" name="id"/>
+            <button type="submit" class="icon-tick icon-btn"><span class="hide-text">Save</span></button>
+          </div>
+        </label>
+      </div>
+    </form>
+
+    <div ng-repeat="todo in todos track by $index" class="todo-item" id="[[ todo.id ]]" todo-item="" ng-model="todo">
+      <label for="todo-[[ todo.id ]]" ng-class="{ done: todo.done === true }">
+        <div class="col-11 todo-descr">
+          <div class="checkbox">
+            <input type="checkbox" name="todo-[[ todo.id ]]" id="todo-[[ todo.id ]]" class="checkbox"
+              ng-change="saveStatus()" ng-model="todo.done"/>
+            <label for="todo-[[ todo.id ]]"></label>
+          </div>
+          <span class="done-[[todo.done]]">[[ todo.name ]]</span>
+        </div>
+        <div class="col-1 todo-delete">
+          <a href="#delete-todo" class="icon-trash" title="Delete Todo" ng-click="remove()"><span class="hide-text">Delete</span></a>
+        </div>
+      </label>
+    </div>
+
+</div>
+
+
+      </content>
+
+    </div>
+
+    <footer class="footer">
+
+      <div class="wrap">
+
+        <a href="http://www.digitaslbi.com/nl/" rel="designates" title="DigitasLBi" class="brand__logo"><span>DigitasLBi</span></a>
+
+      </div>
+
+    </footer>
+
+
+  </body>
+</html>

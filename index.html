@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="wrap">
+  <div class="controls" ng-controls="">
+    <div class="col-4">
+      <button name="complete_all" type="button" class="btn-ctrl btn__complete" ng-click="completeAll()">Complete All</button>
+    </div>
+    <div class="col-4">
+      <span class="status">[[ remaining() ]] Todo items left (out of [[ todos.length ]])</span>
+    </div>
+    <div class="col-4">
+      <button name="clear_complete" type="button" class="btn-ctrl btn__clear" ng-click="clearCompleted()">Clear Completed</button>
+    </div>
+  </div>
+</div>
+
+<div class="todos" id="todo-list">
+  {% include todos.html %}
+</div>

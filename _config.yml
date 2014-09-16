@@ -1,0 +1,16 @@
+# Site settings
+title: DigitasLBI Exercise "Todo App"
+email: mark@markdejong.com
+description: "This is a basic Todo application, where you can add, remove and highlight a specific item as done."
+baseurl: ""
+url: "http://markdejong.com/examples/todo-list"
+twitter_username: mdejong83
+github_username:  mistermark
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir:         _sass
+  style:            :compressed

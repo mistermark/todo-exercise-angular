@@ -1,0 +1,13 @@
+.controls {
+  @extend .row;
+
+  .btn__clear {
+    float: right;
+  }
+  .status {
+    font-size: pxtoem(11, 16);
+    line-height: pxtoem(30, 12);
+    color: #8f8e8e;
+    text-transform: uppercase;
+  }
+}

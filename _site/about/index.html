@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+
+  <head>
+    <meta charset="utf-8"/>
+
+    <title>About</title>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="This is a basic Todo application, where you can add, remove and highlight a specific item as done."/>
+    <link rel="canonical" href="http://markdejong.com/examples/todo-list/about/"/>
+
+    <!-- Google Fonts API -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet" type="text/css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css"/>
+
+    <script type="text/javascript" src="/scripts/vendor/jquery-1.11.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/scripts/vendor/angular.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/scripts/angular-todo.js" charset="utf-8"></script>
+
+
+</head>
+
+
+  <body>
+
+    <div class="main ng-cloak" ng-controller="TodoController">
+
+      <header class="site-header">
+
+        <div class="wrap">
+
+          <button name="addtodo" type="button" class="btn btn-medium" id="add-todo" todo-addnew="" ng-click="addTodo('#todo-list')">Add</button>
+
+          <h2>add a new todo...</h2>
+
+        </div>
+
+      </header>
+
+
+      <content class="content" role="content" app-init="">
+
+        <div class="post">
+
+  <header class="post-header">
+    <h3>Add a new todo...</h3>
+    <button name="addNewTodo" type="button" class="btn__add-new">Add</button>
+  </header>
+
+  <article class="post-content">
+  <p>This is the About page. You can write more more info here about your website.</p>
+
+<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
+<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+
+  </article>
+
+</div>
+
+
+      </content>
+
+    </div>
+
+    <footer class="footer">
+
+      <div class="wrap">
+
+        <a href="http://www.digitaslbi.com/nl/" rel="designates" title="DigitasLBi" class="brand__logo"><span>DigitasLBi</span></a>
+
+      </div>
+
+    </footer>
+
+
+  </body>
+</html>

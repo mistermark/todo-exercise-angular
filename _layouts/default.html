@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="main ng-cloak" ng-controller="TodoController">
+
+      {% include header.html %}
+
+      <content class="content" role="content" app-init="">
+
+        {{ content }}
+
+      </content>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>
