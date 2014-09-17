@@ -1,0 +1,17 @@
+.status {
+  font-size: 0.9em;
+  line-height: 1.6em;
+  color: #8f8e8e;
+  text-transform: uppercase;
+  text-align: center
+}
+
+@media (max-width: $screen-mobile-max) {
+  .controls__status {
+    display: none;
+  }
+  .controls__complete-all,
+  .controls__clear-completed {
+    width: 50%;
+  }
+}

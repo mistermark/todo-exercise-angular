@@ -26,6 +26,17 @@
 .col-11 { @include column-width(11); }
 .col-12 { @include column-width(12); }
 
+.offset-3 { @include offset-width(3) }
+.offset-4 { @include offset-width(4) }
+
+@media (max-width: $screen-mobile-max) {
+  [class*="col-"] {
+    // width: 100%;
+  }
+  [class*="offset-"] {
+    // margin-left: 0;
+  }
+}
 
 // Setting the box
 .box {

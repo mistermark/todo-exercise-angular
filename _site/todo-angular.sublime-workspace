@@ -1,0 +1,1972 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"off",
+				"offset-3"
+			],
+			[
+				"string",
+				"stringJson"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"_mark",
+				"_markAsDone"
+			],
+			[
+				"todo",
+				"todoCount"
+			],
+			[
+				"bat",
+				"batchReplace"
+			],
+			[
+				"tota",
+				"totalTodos"
+			],
+			[
+				"_get",
+				"_getStoredTodos"
+			],
+			[
+				"stored",
+				"storedData"
+			],
+			[
+				"item",
+				"itemArray"
+			],
+			[
+				"store",
+				"storedData"
+			],
+			[
+				"sto",
+				"storedData"
+			],
+			[
+				"toT",
+				"toTrashItemId"
+			],
+			[
+				"te",
+				"testObj"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"parse",
+				"parseJson"
+			],
+			[
+				"new",
+				"newData"
+			],
+			[
+				"schedul",
+				"scheduleDate"
+			],
+			[
+				"current",
+				"currentYear"
+			],
+			[
+				"tr",
+				"transfersRecurring"
+			],
+			[
+				"bdt",
+				"bdt+	border-top: ${1:1px} ${2:solid} ${3:#000};"
+			],
+			[
+				"fw",
+				"fw-n	font-weight: normal;"
+			],
+			[
+				"savetem",
+				"savetemplate"
+			],
+			[
+				"trans",
+				"transfersSaveTemplate"
+			],
+			[
+				"i18n",
+				"i18nStrings"
+			],
+			[
+				"transfers",
+				"transfersScheduleRecurring"
+			],
+			[
+				"http",
+				"httpService"
+			],
+			[
+				"accout",
+				"accountsList"
+			],
+			[
+				"accou",
+				"accountsModel"
+			],
+			[
+				"c",
+				"console.	console.profile([title])"
+			],
+			[
+				"fld",
+				"fldcurrency"
+			],
+			[
+				"dis",
+				"displayName"
+			],
+			[
+				"as",
+				"async"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"sub",
+				"substring"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"blockC",
+				"blockCreditCardConfirmForm"
+			],
+			[
+				"panel",
+				"panelTemplate"
+			],
+			[
+				"reason",
+				"reasonNo"
+			],
+			[
+				"reasons",
+				"reasonsObj"
+			],
+			[
+				"block",
+				"blockReasons"
+			],
+			[
+				"cred",
+				"creditcards"
+			],
+			[
+				"cre",
+				"creditCards"
+			],
+			[
+				"mw",
+				"min-width"
+			],
+			[
+				"left",
+				"leftDistance"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"less",
+				"lessFiles"
+			],
+			[
+				"les",
+				"lessFiles"
+			],
+			[
+				"gulfb",
+				"gulfbank-desktop"
+			],
+			[
+				"bui",
+				"bundlesDir"
+			],
+			[
+				"watch",
+				"watchLessFiles"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"conso",
+				"console.	console.log()"
+			],
+			[
+				"wat",
+				"watchLessFiles"
+			],
+			[
+				"brd",
+				"bdrw	border-right-width"
+			],
+			[
+				"accountH",
+				"accountHistoryParams"
+			],
+			[
+				"acocunt",
+				"accountHistory"
+			],
+			[
+				"hist",
+				"historyParams"
+			],
+			[
+				"endpoi",
+				"endpoint"
+			],
+			[
+				"bdom",
+				"bdomDocument"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"accountSummary",
+				"accountSummary"
+			],
+			[
+				"accountSum",
+				"accountSummaryStretch"
+			],
+			[
+				"select",
+				"selectEl"
+			],
+			[
+				"Selec",
+				"SelectOption"
+			],
+			[
+				"end",
+				"endpoint"
+			],
+			[
+				"account",
+				"accountHistoryLoad"
+			],
+			[
+				"scr",
+				"scrollTop"
+			],
+			[
+				"accountTra",
+				"accountTransactionsPage"
+			],
+			[
+				"endp",
+				"endpoints"
+			],
+			[
+				"retu",
+				"returnEndPoint"
+			],
+			[
+				"load",
+				"loadMore"
+			],
+			[
+				"in",
+				"in_progress"
+			],
+			[
+				"curre",
+				"currentActiveTab"
+			],
+			[
+				"cu",
+				"currentAccountDetailsTab"
+			],
+			[
+				"service",
+				"serviceParams"
+			],
+			[
+				"tem",
+				"templateID"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"Remote",
+				"getRemoteService"
+			],
+			[
+				"curr",
+				"currentSection"
+			],
+			[
+				"credit",
+				"creditcardActivityEndPoint"
+			],
+			[
+				"CREDIT",
+				"CREDITCARDACTIVITY_ENDPOINT"
+			],
+			[
+				"accountTr",
+				"accountTransactionHistoryEndPoint"
+			],
+			[
+				"ACCO",
+				"ACCOUNTACTIVITY_ENDPOINT"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"tab",
+				"tabTemplate"
+			],
+			[
+				"getT",
+				"getTemplateName"
+			],
+			[
+				"fdl",
+				"fldaccttype"
+			],
+			[
+				"accountSumm",
+				"accountSummary"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"dire",
+				"verbose_directive	AngularJS"
+			],
+			[
+				"sel",
+				"selectedAccountIndex"
+			],
+			[
+				"val",
+				"val1"
+			],
+			[
+				"options",
+				"optionsList"
+			],
+			[
+				"accounts",
+				"accountsList"
+			],
+			[
+				"accoun",
+				"accountDetails"
+			],
+			[
+				"whsn",
+				"whs-nw	white-space: nowrap;"
+			],
+			[
+				"whs",
+				"whs-nw	white-space: nowrap;"
+			],
+			[
+				"ov",
+				"ov-h	overflow: hidden;"
+			],
+			[
+				"ACC",
+				"ACCOUNTDETAILS_ENDPOINT"
+			],
+			[
+				"list",
+				"listHeight"
+			],
+			[
+				"mh",
+				"max-height"
+			],
+			[
+				"accountT",
+				"accountTabsLoading"
+			],
+			[
+				"accountS",
+				"accountSummaryInfo"
+			],
+			[
+				"accountDe",
+				"accountDetailsTotal"
+			],
+			[
+				"summ",
+				"summaryExtras"
+			],
+			[
+				"get",
+				"getCurrentAccountDetails"
+			],
+			[
+				"selec",
+				"selectedAccountService"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"$roo",
+				"$rootScope	AngularJS"
+			],
+			[
+				"ac",
+				"accountSummaryInfo"
+			],
+			[
+				"widget",
+				"widgetAccountsListController"
+			],
+			[
+				"bdb",
+				"bdb	border-bottom"
+			],
+			[
+				"widg",
+				"widgetAccountsListController"
+			],
+			[
+				"cons",
+				"console.	console.log()"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"acco",
+				"accountCards"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"direc",
+				"verbose_directive	AngularJS"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"p",
+				"p	padding"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"to",
+				"tov-e	text-overflow: ellipsis;"
+			],
+			[
+				"bp-page",
+				"bp-Page_Layout--area"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_includes/controls.html",
+			"settings":
+			{
+				"buffer_size": 609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/layout/_controls.scss",
+			"settings":
+			{
+				"buffer_size": 458,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/modules/_todo-list.scss",
+			"settings":
+			{
+				"buffer_size": 1265,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 587,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/layout/_header.scss",
+			"settings":
+			{
+				"buffer_size": 573,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/todos.html",
+			"settings":
+			{
+				"buffer_size": 1447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/modules/_icons.scss",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/fonts/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 405,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"pro",
+				"Project: Edit"
+			],
+			[
+				"jshint",
+				"JSHint: Clear Annotations"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"synhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"synjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"snyjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"revers",
+				"Permute Lines: Reverse"
+			],
+			[
+				"rever",
+				"File: Revert"
+			],
+			[
+				"frm",
+				"Format: Javascript"
+			],
+			[
+				"mini",
+				"Minify::Default File Settings"
+			],
+			[
+				"syntjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntjos",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"synt json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set ja",
+				"Set Syntax: JSON"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"cssc",
+				"Run CSScomb JS"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"comm",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"editor",
+				"Set Syntax: EditorConfig"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"repa",
+				"Package Control: Enable Package"
+			],
+			[
+				"comment",
+				"Toggle Block Comment"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"inde",
+				"Indent XML"
+			],
+			[
+				"beau",
+				"Beautify::Beautify File"
+			],
+			[
+				"minif",
+				"Minify::Minify File"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"auo",
+				"Auto indent"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"angu",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"comb",
+				"Run CSScomb JS"
+			],
+			[
+				"update",
+				"Emmet: Update Image Size"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"synxml",
+				"Set Syntax: XML"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"synt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"cssco",
+				"Run CSScomb JS"
+			],
+			[
+				"css",
+				"Run CSScomb JS"
+			],
+			[
+				"tidy",
+				"Tidy CSS"
+			],
+			[
+				"jsp",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"todo",
+				"SimpleTODO: List TODO"
+			],
+			[
+				"url",
+				"URL Encode"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"de",
+				"URL Decode"
+			],
+			[
+				"ur",
+				"URL Encode"
+			],
+			[
+				"enco",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ja",
+				"Format: Javascript"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"git",
+				"Package Control: List Packages"
+			],
+			[
+				"jek",
+				"Set Syntax: HTML (Jekyll)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"LESS",
+				"Set Syntax: LESS"
+			],
+			[
+				"INST",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"styl",
+				"Set Syntax: Stylus"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			]
+		],
+		"width": 516.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/mark/Code/lbi/exercise-todo-angular",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_includes",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_layouts",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/base",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/fonts",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/layout",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/modules",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools",
+		"/Users/mark/Code/lbi/exercise-todo-angular/css"
+	],
+	"file_history":
+	[
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_settings.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/css/main.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/scripts/angular-todo.js",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_mixins.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_helpers.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_includes/header.html",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/layout/_header.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/index.html",
+		"/Users/mark/Code/lbi/exercise-todo-angular/.gitignore",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/css/transfer-funds.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/i18n/transfer-funds.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/ng-templates/accountSummary.html",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/gulfbank-olb.sublime-project",
+		"/Users/mark/Code/lbi/exercise-todo/media/icon-check.svg",
+		"/Users/mark/Code/lbi/exercise-todo/css/main.scss",
+		"/Users/mark/Code/lbi/exercise-todo/_includes/foot.html",
+		"/Users/mark/Code/lbi/exercise-todo/about.md",
+		"/Users/mark/Code/lbi/exercise-todo/feed.xml",
+		"/Users/mark/Code/lbi/exercise-todo/_sass/base/_base.scss",
+		"/Users/mark/Code/lbi/exercise-todo/_config.yml",
+		"/Users/mark/Code/lbi/exercise-todo/.gitignore",
+		"/Users/mark/Code/lbi/exercise-todo/_sass/tools/_settings.scss",
+		"/Users/mark/Code/lbi/exercise-todo/_sass/tools/_helpers.scss",
+		"/Users/mark/Code/lbi/exercise-todo/_sass/layout/_header.scss",
+		"/Users/mark/Code/lbi/exercise-todo/_sass/base/_normalize.scss",
+		"/Users/mark/Code/lbi/exercise-todo/_layouts/default.html",
+		"/Users/mark/Code/lbi/exercise-todo/_includes/footer.html",
+		"/Users/mark/Code/lbi/exercise-todo/index.html",
+		"/Users/mark/Code/lbi/exercise-todo/_includes/header.html",
+		"/Users/mark/Code/lbi/exercise-todo/_includes/head.html",
+		"/Users/mark/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/index.mustache",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/ng-templates/transferForm.html",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/buttons.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/navs.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/lib/bootstrap3/less/forms.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/user-profile/index.mustache",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/lib/bootstrap3/less/bootstrap.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/panels.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/base.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/js/credit-cards.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/i18n/transfer-funds_ar_AA.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/fonts.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/lib/gb-utils.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/configuration/src/main/resources/i18n/ResourceBundle_ar_AA.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/configuration/src/main/resources/i18n/ResourceBundle.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/index.html",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/media/sprite-scrollarrows.png",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/i18n/transfer-funds-ar_AA.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list-mobile/js/accounts-list.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/css/credit-cards.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/subnavigation.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/js/accounts-list.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/stub/response.json",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list-mobile/css/accounts-list.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list-mobile/index.html",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/css/accounts-list.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/angular-modules/angular-locale_ar_AA.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/src/main/resources/import/importPortal.xml",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/pom.xml",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/tools/grunt/buildConfig.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/tools/grunt/Gruntfile.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/conf/require-conf.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/angular-modules/angular-charts.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/stub/accountActivity.json",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/WEB-INF/gulfbank/includes/custom-head.jsp",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/index.html",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/i18n/accounts-list_ar_AA.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/c3.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/i18n/accounts-list.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/login/js/login.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/login/index.mustache",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/login/css/login.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/typography.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-mobile/src/main/webapp/static/themes/gulfbank-mobile/helpers.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/reset-password/js/reset-password.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/reset-password/index.mustache",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/placeholdr.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/angular-modules/angular-locale_en_US.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-mobile/src/main/webapp/static/themes/gulfbank-mobile/base.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/containers/Page_Layout_Dashboard/templates/Page_Layout_Dashboard.soy",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/containers.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/accounts-list/accounts-list-config.xml",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/css/credit-cards.css",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/index.mustache",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/helpers.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/i18n/credit-cards.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/i18n/credit-cards_ar_AA.properties",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/stub/resCreditcardAll.json",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/stub/resCreditcardConfirm_activation.json",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/stub/resCreditcardActivaterequest.json",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/src/test/java/com/backbase/test/service/accounts/CreditCardDetailsIT.java",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/services/creditcard-module/src/main/resources/template/velocity/creditcard_details_request.vm",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/configuration/src/main/resources/db-scripts/contentservices/db2/create-schema-bbcs.sql",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/services/creditcard-module/src/main/resources/template/velocity/cc_activate_request.vm",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/node_modules/less/CHANGELOG.md",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/node_modules/less/test/css/css.css",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/node_modules/less/.grunt/grunt-contrib-jasmine/es5-shim.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/node_modules/less/node_modules/.bin/cleancss",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/.editorconfig",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/stub/resCreditcardConfirm_blocking.json",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/index.html",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/mark-install.sh",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/bootstrap.min.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/variables.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/stub/creditcardBlockrequest.json",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank/widgets.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/lib/bootstrap3/less/panels.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/lib/bootstrap3/less/variables.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/credit-cards-config.xml",
+		"/Users/mark/Library/Application Support/Sublime Text 3/Packages/Minify/Minify.sublime-settings",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/src/main/resources/conf/uiEditingOptions.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/chromes/launcher/chrome-tab.html",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/subnav-header/js/subnav-header.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-mobile/src/main/webapp/static/themes/gulfbank-mobile/navigation-mobile.less",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/subnavigation-mobile/subnavigation-mobile-config.xml",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/reset-password/index.mustache.edited",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/tools/grunt2/buildConfig.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/tools/grunt2/Gruntfile.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/tools/grunt2/package.json",
+		"/Users/mark/Downloads/grunt2/buildConfig.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/underscore/underscore.min.js",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/src/main/webapp/WEB-INF/launchpad/pages/launchpad-page.jsp",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/WEB-INF/gulfbank/includes/custom-body.jsp",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/target/portal/WEB-INF/launchpad/pages/launchpad-page.jsp",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/mark-run.sh",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/branches/markdejong/gulf-olb/portal/pom.xml",
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/gulfbank/widgets/accounts-list/js/accounts-list.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 299.0,
+		"where_history":
+		[
+			"/Users/mark/Backbase/Projects/Services/Launchpad/launchpad-0.10.0/launchpad-view/launchpad-items/webapp/static/launchpad/lib",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/lib/bootstrap3",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/lib/bootstrap3/less",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/themes/gulfbank",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/themes/gulfbank-desktop/src/main/webapp/static/lib/launchpad-ext/less",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/lib",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes/default",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes/gulfbank",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/lib",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/lib/bootstrap3",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes/gulfbank",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/lib/bootstrap3/less",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/lib/launchpad-ext",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes/gulfbank",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes/gulfbank-mobile",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/themes/gulfbank/base.css",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/launchpad",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/lib",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/themes/default",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/themes",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/launchpad",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/lib/launchpad-ext",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/themes/example",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/lib",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/themes/gulfbank",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/lib",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/lib/bootstrap3",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb/portal/src/main/webapp/static/lib/bootstrap3/less",
+			"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/trunk/gulf-olb",
+			"/Users/mark/Backbase/Projects/Services/launchpad-portal/portalserver/target/portalserver/WEB-INF",
+			"/Users/mark/Backbase/Projects/Services/launchpad-portal/portalserver/target/portalserver/static/launchpad",
+			"/Users/mark/Backbase/Projects/Services/BackbaseCTO/backbase-widget-workbench",
+			"/Users/mark/Backbase/Projects/Services/BackbaseCTO/backbase-widget-engine",
+			"/Users/mark/Backbase/Projects/Services/launchpad-0.10.0",
+			"/Users/mark/Backbase/Projects/Services/launchpad-0.10.0/portalserver",
+			"/Users/mark/Backbase/Projects/Services/BackbaseTraining_Suite5/branches/Frontend-v2.0/portal/portalserver/src/main/webapp/static/frontend-training-exercise9",
+			"/Users/mark/Backbase/Projects/Services/BackbaseTraining_Suite5/branches/Frontend-v2.0/portal/portalserver/src/main/webapp/static/frontend-training-exercise8/containers",
+			"/Users/mark/Backbase/Projects/Services/BackbaseTraining_Suite5/branches/Frontend-v2.0/portal/portalserver",
+			"/Users/mark/Code/splitforce_design/_sass/bootstrap",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce",
+			"/Users/mark/Code/splitforce_design/_sass/bootstrap",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce/content",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce",
+			"/Users/mark/Code/splitforce_design/_sass/bootstrap",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce",
+			"/Users/mark/Code/splitforce_design/_sass/bootstrap",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce",
+			"/Users/mark/Code/splitforce_design/_sass/bootstrap",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce",
+			"/Users/mark/Code/splitforce_design/_sass/bootstrap",
+			"/Users/mark/Code/splitforce_design/_sass/splitforce",
+			"/Users/mark/Backbase/Projects/Customers/Nationwide/nationwide-pilot/portalserver/target/portalserver/static/launchpad/widgets/new-transfer",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/theme/src/main/webapp/static/themes/default",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp/static/sa.com.shb/widgets",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/resources",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp/static/sa.com.shb/widgets",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp/static/sa.com.shb",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp/static",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/resources",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp/WEB-INF",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/resources/import/sa.com.shb",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp/static/sa.com.shb/widgets",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src/main/webapp/static/sa.com.shb/widgets/SHB_AdvancedNav",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/configuration",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/src",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/portalserver/configuration",
+			"/Users/mark/Backbase/Projects/Customers/SaudiHollandiBank/branches/cloud9/theme/src/main/webapp/static/lib/bootstrap3/less",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/target",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/configuration",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/WEB-INF",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/static",
+			"/Users/mark/Backbase/Projects/Customers/Al-Rajhi-SPI/al-mubasher/portalserver/src/main/webapp/WEB-INF",
+			"/Users/mark/Backbase/Projects/Customers/Al-Rajhi-SPI/al-mubasher/almubasher-bundle/src/main/webapp/static/sa.alrajhi/widgets",
+			"/Users/mark/Backbase/Projects/Customers/Al-Rajhi-SPI/al-mubasher/almubasher-bundle/src/main/webapp/static/sa.alrajhi/js",
+			"/Users/mark/Backbase/Projects/Customers/Al-Rajhi-SPI/al-mubasher/almubasher-bundle/src/main/webapp/static/sa.alrajhi/js/common",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/static/swisscom/widgets/etools-calculator/js",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/static/swisscom/widgets/etools-calculator/js/originals",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/static/swisscom/widgets/etools-calculator",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/launchpad-ext",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/themes/swisscom",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/bootstrap3",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/target",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/target",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/bootstrap3",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/launchpad-ext",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom-mobile/import-model",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/themes/swisscom",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/launchpad-ext/less",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/static/swisscom/widgets/etools-calculator/js",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/static/swisscom/widgets/etools-calculator",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/webapp/static/swisscom/widgets/etools-calculator/js",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/launchpad-ext",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/bootstrap3/less",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/themes",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/target/portalserver/WEB-INF/classes/import/launchpad",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/target/portalserver/WEB-INF/classes/import/launchpad-retail-v1",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/target/portalserver/WEB-INF/classes/import/launchpad",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/target",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-containers.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-master-dashboard.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-master-launcher.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-widgets.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-links.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-pages.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/server-catalog-containers.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/server-catalog-pages.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/server-catalog-widgets.xml",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-containers.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-master-dashboard.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-master-launcher.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-catalog-widgets.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-links.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal-pages.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/portal.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/server-catalog-containers.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/server-catalog-pages.xml,/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model/server-catalog-widgets.xml",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/portalserver/src/main/resources/swisscom/import-model",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/bootstrap3",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/themes/default",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/bootstrap3",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/src/main/webapp/static/lib/launchpad-ext/less",
+			"/Users/mark/Backbase/Projects/Customers/SwisscomPoC/trunk/theme/target"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"trash",
+			"saveSelectedTab",
+			" =",
+			";",
+			" =",
+			"$scope.$parent.transfer.params.",
+			".$parent",
+			"hidden",
+			"transfer.beneficiary",
+			"$scope.accountSummary",
+			"$parent.",
+			".$parent",
+			"gb-accountslist",
+			"OAT",
+			"$scope.transfer",
+			"accountSummary.",
+			"accountsList.html",
+			"data.model.",
+			"data.",
+			"$parent.",
+			"accountSummary",
+			"gb-accountsummary",
+			"gbAccountsummary",
+			"console.",
+			"initTransfer",
+			"accountSummary.template",
+			"_generateTodoList",
+			"_refreshList",
+			"_storeNewData",
+			"_storeNewTodo",
+			"_getStoredTodos",
+			"_hasLocalStorage",
+			"_getStoredTodos",
+			"_addItem",
+			"/**",
+			"String.prototype",
+			"item",
+			"stringJson",
+			"storedData",
+			"newStatus",
+			"_sortArray",
+			"console",
+			"_getItemWrapper",
+			"doneItems",
+			"_clearCompleted",
+			"_markAsDone",
+			"_updateStatusHeader",
+			"_generateTodoList",
+			"batchReplace",
+			"_refreshList",
+			"refresh",
+			"_updateStoredStatus",
+			"_unmarkAsDone",
+			"getStoredStatus",
+			"_storeNewData",
+			"_updateStoredStatus",
+			"_markAllComplete",
+			"_storeNewData",
+			"_unmarkAsDone",
+			"_getItemWrapper",
+			"toTrashItemId",
+			"closest",
+			"_storeNewData",
+			"_markAllComplete",
+			"_updateStoredStatus",
+			"_markAllComplete",
+			"_generateTodoList",
+			"_refreshList",
+			"_hasLocalStorage",
+			"_trashItem",
+			"_storeNewData",
+			"_getStoredTodos",
+			"_generateTodoList",
+			"_storeNewTodo",
+			"parseJson",
+			"_hasLocalStorage",
+			"todos",
+			"_hasLocalStorage()",
+			"_getStoredTodos",
+			"parseJson",
+			"httpService",
+			"makeXhrRequest",
+			"getServiceInstance",
+			"getInst",
+			"endpoint",
+			"makeXhrRequest",
+			"replaceUrlVars",
+			"getInst",
+			"makeXhrRequest",
+			"httpService",
+			"OAT02",
+			"transfer.",
+			"scope",
+			"module.directive",
+			"contextPath",
+			"$scope",
+			"create()",
+			"read()",
+			".transfer",
+			"scheduleDate",
+			"transfer",
+			"text",
+			"httpService",
+			"accountsDataSrc",
+			"hidden",
+			"$scope.transfer",
+			"data",
+			"\"\"",
+			"accountSummary.model",
+			"accountsDataSrc",
+			"recurringTerms",
+			"decimals",
+			"dt ",
+			"dt",
+			"recurringTerms",
+			"transferForm",
+			"date",
+			"transfers__scheduled--date",
+			"tab-pane",
+			"pushMonths",
+			"number",
+			"tab-pane",
+			"btn-",
+			".form-control",
+			" +",
+			"'",
+			"occurence",
+			"input-lg"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".gb-transfer-funds",
+			"monetary",
+			"\"",
+			"http://gulfdev.backbase.com:8080/portal",
+			"'",
+			"<tag type=\"section\">layouts</tag>",
+			"div.widget-client-activity",
+			"<br/>",
+			"</br>",
+			"",
+			"url(",
+			"\"",
+			"",
+			"swisscom",
+			"bank-porta-mobile/",
+			"<contextItemName>swisscom-mobile</contextItemName>",
+			"<parentItemName>swisscom-mobile</parentItemName>",
+			"<contextItemName>swisscom-mobile</contextItemName>",
+			"<parentItemName>swisscom-mobile</parentItemName>",
+			"<contextItemName>swisscom-mobile</contextItemName>",
+			"<parentItemName>swisscom-mobile</parentItemName>",
+			"<contextItemName>swisscom-mobile</contextItemName>",
+			"\\n",
+			"",
+			"<tag type=\"section\">layouts</tag>",
+			"    <widget>\n        <name>$1</name>\n        <contextItemName>swisscom</contextItemName>\n        <extendedItemName>[$1]</extendedItemName>\n    </widget>",
+			"<contextItemName>swisscom</contextItemName>",
+			"",
+			"</property>",
+			"<property label=\"Theme\" name=\"themeName\" viewHint=\"text-input,designModeOnly,manager\">\n                <value type=\"string\">swisscom</value>\n            </property>",
+			"",
+			"widgets/etools-calculator",
+			"",
+			">page_master-blank<",
+			"<manageable>false</manageable>",
+			"</value>",
+			"<contextItemName>swisscom</contextItemName>",
+			"swisscom",
+			"",
+			"</value>",
+			"<contextItemName>swisscom</contextItemName>",
+			"<value type=\"string\">swisscom/",
+			"<parentItemName>swisscom</parentItemName>",
+			"<contextItemName>swisscom</contextItemName>",
+			">page_borrow<",
+			">page_save<",
+			">page_invest<",
+			">page_insure-protect<",
+			">page_contact<",
+			">page_car-loan<",
+			">page_personal-loan<",
+			">page_credit-cards<",
+			">page_esavings-rewared<",
+			">page_monthly-savings<",
+			">page_isas<",
+			">page_investment-options<",
+			">page_investment-isa<",
+			">page_learn-about-investing<",
+			">page_home-insurance<",
+			">page_life-insurance<",
+			">page_travel-insurance<",
+			">page_contact-details<",
+			">page_locations<",
+			">page_follow-us<",
+			">page_springboard<",
+			">page_master-dashboard<",
+			">page_master-launcher<",
+			"</properties><uuid>$2</uuid></page>",
+			">page_home<",
+			">page_profile<",
+			"",
+			"</value>",
+			">link_master-dashboard<",
+			">link_master-launcher<",
+			">link_shortcut-springboard<",
+			">link_shortcut-home<",
+			">link_shortcuts<",
+			">link_springboard<",
+			">link_dashboards<",
+			">link_follow-us<",
+			">link_locations<",
+			">link_contact-details<",
+			">link_contact<",
+			">link_travel-insurance<",
+			">link_life-insurance<",
+			">link_home-insurance<",
+			">link_insure--protect<",
+			">link_learn-about-investing<",
+			">link_investment-isa<",
+			">link_investment-options<",
+			">link_invest<",
+			">link_isas-savings<",
+			">link_monthly-savings<",
+			">link_e-savings-rewared<",
+			">link_save<",
+			">link_credit-cards<",
+			">link_personal-loan<",
+			">link_car-loan<",
+			">link_borrow<",
+			">link_preferences<",
+			">link_accounts<",
+			">link_contact-info<",
+			">link_profile<",
+			">link_home<",
+			"<parentItemName>swisscom</parentItemName>",
+			"<contextItemName>swisscom</contextItemName>",
+			"</properties></link>",
+			"</value>",
+			"",
+			">link_dashboards<",
+			"<parentItemName>swisscom</parentItemName>",
+			"",
+			"<contextItemName>swisscom</contextItemName>",
+			"",
+			">master-dashboard_widget-catalog<",
+			">master-dashboard_lightbox-container<",
+			">master-dashboard_Manageable_Area<",
+			">master-dashboard_widget-navshortcuts<",
+			">master-dashboard_widget-advanced-content<",
+			">master-dashboard_page-layout-container<",
+			">page_master-dashboard<",
+			"<parentItemName>swisscom</parentItemName>",
+			"<contextItemName>swisscom</contextItemName>",
+			"</value>",
+			"",
+			"</value>",
+			"",
+			">master-launcher_widget-places<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_includes/controls.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_sass/layout/_controls.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_sass/modules/_todo-list.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1265,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 197.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_sass/layout/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_includes/todos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1322,
+								1322
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_sass/modules/_icons.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								351,
+								351
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_sass/fonts/_fonts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "todo-angular.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"creditcss",
+				"statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/credit-cards/css/credit-cards.css"
+			],
+			[
+				"index.must",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/gulfbank/widgets/accounts-list/index.mustache"
+			],
+			[
+				"pom.xml",
+				"gulf-olb/portal/pom.xml"
+			],
+			[
+				"gb-uti",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/gulfbank/lib/gb-utils.js"
+			],
+			[
+				"accountdetails",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/gulfbank/widgets/accounts-list/stub/accountDetails.json"
+			],
+			[
+				"accountless",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/gulfbank/widgets/accounts-list/css/accounts-list.less"
+			],
+			[
+				"helpers",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes/gulfbank/helpers.less"
+			],
+			[
+				"base.less",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/themes/gulfbank/base.less"
+			],
+			[
+				"helper",
+				"gulf-olb/portal/target/portal/static/themes/gulfbank/helpers.less"
+			],
+			[
+				"custom-head.jsp",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/WEB-INF/gulfbank/includes/custom-head.jsp"
+			],
+			[
+				"index.html",
+				"gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/gulfbank/widgets/example-widget/index.html"
+			],
+			[
+				"con",
+				"contact-info"
+			],
+			[
+				"ptc",
+				"portalserver/target/portalserver/WEB-INF/classes/ptc-config.xml"
+			],
+			[
+				"uied",
+				"portalserver/src/main/resources/conf/uiEditingOptions.js"
+			],
+			[
+				"theme.",
+				"portalserver/src/main/webapp/WEB-INF/common/theme.jsp"
+			],
+			[
+				"faq",
+				"_includes/faqs.html"
+			],
+			[
+				"uiediting",
+				"portalserver/WEB-INF/classes/conf/launchpad/uiEditingOptions.js"
+			],
+			[
+				"uieidint",
+				"portalserver/WEB-INF/classes/conf/launchpad/uiEditingOptions.js"
+			],
+			[
+				"portal-s",
+				"portalserver/src/main/webapp/static/launchpad/lib/portal-setup.js"
+			],
+			[
+				"subformgovsadadservicedetails",
+				"portalserver/src/main/webapp/WEB-INF/ibanking/widgets/wdg.subformGovSadadServiceDetails.jsp"
+			],
+			[
+				"subformgovsadadapplicationtypes",
+				"portalserver/src/main/webapp/WEB-INF/ibanking/widgets/wdg.subformGovSadadApplicationTypes.jsp"
+			],
+			[
+				"governmentsadad",
+				"portalserver/src/main/webapp/WEB-INF/ibanking/gadgets/governmentSadad.jsp"
+			],
+			[
+				"gov",
+				"almubasher-bundle/src/main/webapp/static/sa.alrajhi/widgets/govsadad/govsadad.js"
+			],
+			[
+				"govsa",
+				"portalserver/src/main/webapp/WEB-INF/ibanking/widgets/wdg.subformGovSadadApplicationTypes.jsp"
+			],
+			[
+				"accountmode",
+				"portalserver/src/main/webapp/static/launchpad-retail-v1/lib/angular/accounts-model.js"
+			],
+			[
+				"server",
+				"portalserver/src/main/resources/swisscom/import-model/server-catalog-widgets.xml"
+			],
+			[
+				"debitjson",
+				"portalserver/src/main/webapp/static/swisscom/widgets/widget-cardone/data/debitcard.json"
+			],
+			[
+				"notifijson",
+				"portalserver/src/main/webapp/static/swisscom/widgets/notifications/data/notifications.json"
+			],
+			[
+				"cardonemodel",
+				"portalserver/src/main/webapp/static/swisscom/lib/angular/cardone-model.js"
+			],
+			[
+				"back",
+				"portalserver/configuration/examples/backbase.properties"
+			],
+			[
+				"login.jsp",
+				"portalserver/src/main/webapp/WEB-INF/auth/login.jsp"
+			],
+			[
+				"wdg.my",
+				"portalserver/target/portal/WEB-INF/ibanking/widgets/wdg.myAccounts.jsp"
+			],
+			[
+				"io.",
+				"almubasher-bundle/src/main/webapp/static/sa.alrajhi/js/common/io.js"
+			],
+			[
+				"mdl.stan",
+				"src/main/webapp/static/js/custom/mdl.standingOrders.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Backbase/Projects/Customers/Gulf-Bank/gulfbank-portal.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

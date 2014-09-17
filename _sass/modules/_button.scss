@@ -2,9 +2,8 @@
   @include inline-block();
   border: none;
   background-color: $white;
-  color: $red;
+  color: $green;
   text-transform: uppercase;
-  font-size: 0.75em;
   padding: 0.5em 1.8em;
 
 }
@@ -12,7 +11,6 @@
   @extend .btn;
   background-color: #f8f7f7;
   color: #333;
-  padding: 0.5em 1.0em;
   &:hover {
     background-color: darken(#f8f7f7, 10%);
   }
@@ -23,4 +21,46 @@
   line-height: 1em;
   padding: 0.4em;
   margin: 0 0.8em;
+}
+.btn-huge {
+  width: 4em;
+  height: 4em;
+  &:after {
+    font-size: 4em;
+    position: relative;
+    top: 1px;
+  }
+  @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
+    & {
+      width: 5em;
+      height: 5em;
+      &:after {
+        font-size: 5em;
+      }
+    }
+  }
+  @media (min-width: $screen-desktop-min) and (max-width: $screen-desktop-max) {
+    & {
+      width: 6em;
+      height: 6em;
+      &:after {
+        font-size: 6em;
+      }
+    }
+  }
+}
+.btn-round {
+  border-radius: 50%;
+  padding: 0;
+  line-height: 4em;
+  @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
+    & {
+      line-height: 5em;
+    }
+  }
+  @media (min-width: $screen-desktop-min) and (max-width: $screen-desktop-max) {
+    & {
+      line-height: 6em;
+    }
+  }
 }

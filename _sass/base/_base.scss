@@ -12,7 +12,7 @@ body {
 .main {
   @extend .box;
   min-height: 100%;
-  margin-bottom: -($footer-height + (($wrap-vertical-padding * 1.67) * 2));
+  margin-bottom: -$footer-height;
   &:after {
     content: "";
     display: block;
@@ -21,7 +21,7 @@ body {
 .main:after,
 .footer {
   @extend .box;
-  height: $footer-height + (($wrap-vertical-padding * 1.67) * 2);
+  height: $footer-height;
 }
 
 .content {

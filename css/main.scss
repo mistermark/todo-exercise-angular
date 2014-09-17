@@ -7,6 +7,9 @@
 @import "tools/mixins";
 @import "tools/helpers";
 
+// Fonts
+@import "fonts/fonts";
+
 // Setup
 
 // Basics
@@ -16,8 +19,8 @@
 
 // Layout
 @import "layout/header";
-@import "layout/controls";
 @import "layout/footer";
+@import "layout/status";
 
 // Modules
 @import "modules/todo-list";

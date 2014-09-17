@@ -1,10 +1,30 @@
-.icon-trash {
+
+[class*="icon-"] {
+  position: relative;
+  &:before,
   &:after {
-    content: url("/media/icon-trash.png");
+    font-family: $icon-font;
   }
 }
-.icon-tick {
+
+// Icons: http://thenounproject.com/tlb/
+.icon-tick:after {
+  content: "\e602";
+}
+.icon-cross:after {
+  content: "\e600";
+}
+.icon-circle:after {
+  content: "\e601";
+}
+.icon-plus:after {
+  content: "\e603";
+}
+.icon-double-tick {
+  &:before {
+    content: "\e602";
+  }
   &:after {
-    content: url("/media/icon-check.png");
+    content: "\e602";
   }
 }

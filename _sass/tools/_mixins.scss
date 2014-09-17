@@ -2,6 +2,10 @@
   width: 100% / $number-of-columns * $number;
 }
 
+@mixin offset-width($number: 12) {
+  margin-left: 100% / $number-of-columns * $number;
+}
+
 @mixin inline-block ($haslayout : true){
 	display: inline-block;
 	vertical-align: middle;

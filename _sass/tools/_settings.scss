@@ -1,6 +1,9 @@
-$red:      #ed0021;
-$white:    #ffffff;
-$green:    #419a45;
+$base-font-size:      16;
+
+$red:       #ed0021;
+$white:     #ffffff;
+$green:     #019875;
+$grey:      #787878;
 
 $site-width:  600px;
 $site-offset: emtopx(2.5, 16);
@@ -10,4 +13,21 @@ $column-padding:    10px;
 
 $wrap-vertical-padding: 12px;
 
-$footer-height: 81px;
+$footer-height: emtopx(4, 16);
+
+$screen-mobile:         320px;
+$screen-mobile-min:     $screen-mobile;
+
+$screen-tablet:         480px;
+$screen-tablet-min:     $screen-tablet;
+
+$screen-desktop:        768px;
+$screen-desktop-min:    $screen-desktop;
+
+$screen-mobile-max:     $screen-tablet-min - 1;
+$screen-tablet-max:     $screen-desktop-min - 1;
+$screen-desktop-max:    $screen-mobile * 4;
+
+$icon-font:       "Todo Icons";
+
+$btn-huge-multiplier:     6;

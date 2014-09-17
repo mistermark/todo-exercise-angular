@@ -1,17 +1,28 @@
 header {
-  background: $red;
+  background: $green;
+  padding: 1em 0;
+  .wrap > div.row {
+    @extend .row;
+  }
   h2 {
     color: #fff;
     font-weight: 100;
     text-align: center;
-    background: transparent url("/media/header-unicorn.png") no-repeat top center;
-    padding-top: 92px;
-    margin: 0 auto;
+    margin: 0;
+  }
+  figure,
+  span {
     display: block;
-    width: 320px;
+  }
+  figure {
+    margin: 0;
+  }
+  div[class*="col-"] {
+    text-align: center;
   }
   .btn {
-    float: right;
-    margin-top: 98px;
+    @extend .btn-huge;
+    @extend .btn-round;
+    text-align: center;
   }
 }
