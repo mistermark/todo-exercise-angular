@@ -391,20 +391,16 @@ header {
   background-color: #eae9e9;
   margin: 2px 0; }
   .todos .todo-item > label {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-transform: uppercase;
-    font-size: 0.75em;
-    line-height: 2.1em; }
+    text-transform: uppercase; }
     .todos .todo-item > label div.checkbox {
-      margin-right: 0.75em; }
+      margin-right: 0.4em; }
     .todos .todo-item > label input.checkbox:checked + span {
       text-decoration: line-through;
       color: #b3b3b3; }
   .todos .todo-item:not(.add-new):hover {
     background-color: #faf9f9; }
     .todos .todo-item:not(.add-new):hover .icon-cross {
-      display: block; }
+      display: inline-block; }
   .todos .todo-item.add-new {
     background-color: #d7cfcf;
     border: 1px solid #c0b3b3; }
@@ -414,17 +410,10 @@ header {
   .todos .todo-item .icon-cross {
     display: none;
     text-align: center;
-    float: right;
     color: #787878;
-    font-size: 1.8em;
-    line-height: 24px;
+    font-size: 1.6em;
     text-decoration: none; }
 
-@media (max-width: 479px) {
-  .todos .todo-item:not(.add-new):hover {
-    background-color: #faf9f9; }
-    .todos .todo-item:not(.add-new):hover .todo-delete {
-      display: block; } }
 form.newItemForm {
   display: none; }
 form .input-medium {
@@ -469,7 +458,7 @@ form .input-medium {
       height: 5em; }
       .btn-huge:after, header .btn:after, header .btn-ctrl:after, header .icon-btn:after {
         font-size: 5em; } }
-  @media (min-width: 768px) and (max-width: 1280px) {
+  @media (min-width: 768px) {
     .btn-huge, header .btn, header .btn-ctrl, header .icon-btn {
       width: 6em;
       height: 6em; }
@@ -483,7 +472,7 @@ form .input-medium {
   @media (min-width: 480px) and (max-width: 767px) {
     .btn-round, header .btn, header .btn-ctrl, header .icon-btn {
       line-height: 5em; } }
-  @media (min-width: 768px) and (max-width: 1280px) {
+  @media (min-width: 768px) {
     .btn-round, header .btn, header .btn-ctrl, header .icon-btn {
       line-height: 6em; } }
 

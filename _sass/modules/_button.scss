@@ -39,7 +39,7 @@
       }
     }
   }
-  @media (min-width: $screen-desktop-min) and (max-width: $screen-desktop-max) {
+  @media (min-width: $screen-desktop-min) {
     & {
       width: 6em;
       height: 6em;
@@ -58,7 +58,7 @@
       line-height: 5em;
     }
   }
-  @media (min-width: $screen-desktop-min) and (max-width: $screen-desktop-max) {
+  @media (min-width: $screen-desktop-min) {
     & {
       line-height: 6em;
     }

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"control",
+				"controls__status"
+			],
+			[
+				"bdr",
+				"bdrz	border-radius"
+			],
+			[
 				"off",
 				"offset-3"
 			],
@@ -506,40 +514,40 @@
 			[
 				"bp-page",
 				"bp-Page_Layout--area"
-			],
-			[
-				"bor",
-				"border-bottom"
-			],
-			[
-				"back",
-				"background"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "_includes/controls.html",
+			"file": "_sass/modules/_button.scss",
 			"settings":
 			{
-				"buffer_size": 609,
+				"buffer_size": 1129,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_sass/layout/_controls.scss",
+			"file": "_sass/tools/_settings.scss",
 			"settings":
 			{
-				"buffer_size": 458,
+				"buffer_size": 700,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_sass/modules/_todo-list.scss",
+			"file": "scripts/angular-todo.js",
 			"settings":
 			{
-				"buffer_size": 1265,
+				"buffer_size": 3949,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/modules/_checkbox.scss",
+			"settings":
+			{
+				"buffer_size": 655,
 				"line_ending": "Unix"
 			}
 		},
@@ -547,7 +555,23 @@
 			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 587,
+				"buffer_size": 828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 333,
 				"line_ending": "Unix"
 			}
 		},
@@ -555,15 +579,7 @@
 			"file": "_sass/layout/_header.scss",
 			"settings":
 			{
-				"buffer_size": 573,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/todos.html",
-			"settings":
-			{
-				"buffer_size": 1447,
+				"buffer_size": 390,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,15 +587,23 @@
 			"file": "_sass/modules/_icons.scss",
 			"settings":
 			{
-				"buffer_size": 494,
+				"buffer_size": 409,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_sass/fonts/_fonts.scss",
+			"file": "_sass/base/_base.scss",
 			"settings":
 			{
-				"buffer_size": 405,
+				"buffer_size": 684,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/layout/_status.scss",
+			"settings":
+			{
+				"buffer_size": 289,
 				"line_ending": "Unix"
 			}
 		}
@@ -925,18 +949,25 @@
 		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/layout",
 		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/modules",
 		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools",
-		"/Users/mark/Code/lbi/exercise-todo-angular/css"
+		"/Users/mark/Code/lbi/exercise-todo-angular/css",
+		"/Users/mark/Code/lbi/exercise-todo-angular/scripts"
 	],
 	"file_history":
 	[
-		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_settings.scss",
 		"/Users/mark/Code/lbi/exercise-todo-angular/css/main.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/index.html",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_helpers.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/modules/_todo-list.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_includes/todos.html",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_config.yml",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/fonts/_fonts.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/layout/_controls.scss",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_includes/controls.html",
+		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_settings.scss",
 		"/Users/mark/Code/lbi/exercise-todo-angular/scripts/angular-todo.js",
 		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_mixins.scss",
-		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/tools/_helpers.scss",
 		"/Users/mark/Code/lbi/exercise-todo-angular/_includes/header.html",
 		"/Users/mark/Code/lbi/exercise-todo-angular/_sass/layout/_header.scss",
-		"/Users/mark/Code/lbi/exercise-todo-angular/index.html",
 		"/Users/mark/Code/lbi/exercise-todo-angular/.gitignore",
 		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/css/transfer-funds.less",
 		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/widgets/transfer-funds/i18n/transfer-funds.properties",
@@ -1050,13 +1081,7 @@
 		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/tools/grunt2/Gruntfile.js",
 		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/tools/grunt2/package.json",
 		"/Users/mark/Downloads/grunt2/buildConfig.js",
-		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/underscore/underscore.min.js",
-		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/src/main/webapp/WEB-INF/launchpad/pages/launchpad-page.jsp",
-		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/WEB-INF/gulfbank/includes/custom-body.jsp",
-		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/target/portal/WEB-INF/launchpad/pages/launchpad-page.jsp",
-		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/portal/mark-run.sh",
-		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/branches/markdejong/gulf-olb/portal/pom.xml",
-		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/com.gulfbank.olb/src/main/webapp/static/gulfbank/widgets/accounts-list/js/accounts-list.js"
+		"/Users/mark/Backbase/Projects/Customers/Gulf-Bank/gulfbank/trunk/gulf-olb/statics/bundles/olb/src/main/webapp/static/gulfbank/support/underscore/underscore.min.js"
 	],
 	"find":
 	{
@@ -1202,6 +1227,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"red",
+			"$btn-huge-size",
+			"span",
 			"trash",
 			"saveSelectedTab",
 			" =",
@@ -1326,10 +1354,7 @@
 			"tab-pane",
 			"btn-",
 			".form-control",
-			" +",
-			"'",
-			"occurence",
-			"input-lg"
+			" +"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1475,32 +1500,64 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 10,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/controls.html",
+					"file": "_sass/modules/_button.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 609,
+						"buffer_size": 1129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								174,
-								174
+								93,
+								93
 							]
 						],
 						"settings":
 						{
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"open_with_edit": true,
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_sass/tools/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
@@ -1513,119 +1570,53 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "_sass/layout/_controls.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								249,
-								249
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "_sass/modules/_todo-list.scss",
+					"file": "scripts/angular-todo.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1265,
+						"buffer_size": 3949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1027,
-								1027
+								3068,
+								3068
 							]
 						],
 						"settings":
 						{
 							"editorconfig": true,
 							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"trim_trailing_white_space_on_save": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 197.0,
+						"translation.y": 2011.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "_includes/header.html",
+					"file": "_sass/modules/_checkbox.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 587,
+						"buffer_size": 655,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								443,
-								443
-							]
-						],
-						"settings":
-						{
-							"editorconfig": true,
-							"ensure_newline_at_eof_on_save": true,
-							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"trim_trailing_white_space_on_save": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_sass/layout/_header.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 573,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								62,
-								62
+								469,
+								469
 							]
 						],
 						"settings":
@@ -1641,24 +1632,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "_includes/todos.html",
+					"buffer": 4,
+					"file": "_includes/header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1447,
+						"buffer_size": 828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1322,
-								1322
+								777,
+								777
 							]
 						],
 						"settings":
@@ -1678,20 +1669,86 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "_sass/modules/_icons.scss",
+					"buffer": 5,
+					"file": "_includes/footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 239,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								209,
+								109
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Jekyll/Syntaxes/HTML (Jekyll).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_sass/layout/_header.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
 							]
 						],
 						"settings":
@@ -1707,24 +1764,90 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "_sass/fonts/_fonts.scss",
+					"buffer": 8,
+					"file": "_sass/modules/_icons.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 405,
+						"buffer_size": 409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								53,
-								53
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_sass/base/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_sass/layout/_status.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
 							]
 						],
 						"settings":
@@ -1741,7 +1864,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

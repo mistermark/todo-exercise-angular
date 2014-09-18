@@ -1,5 +1,5 @@
 # Site settings
-title: DigitasLBI Exercise "Todo App"
+title: Personal Todo App
 email: mark@markdejong.com
 description: "This is a basic Todo application, where you can add, remove and highlight a specific item as done."
 baseurl: ""

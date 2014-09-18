@@ -13,7 +13,7 @@
 
     <div ng-repeat="todo in todos track by $index" class="todo-item" id="[[ todo.id ]]" todo-item="" ng-model="todo">
       <label for="todo-[[ todo.id ]]" ng-class="{ done: todo.done === true }">
-        <div class="col-11 todo-descr">
+        <div class="col-10 todo-descr">
           <div class="checkbox">
             <input type="checkbox" name="todo-[[ todo.id ]]" id="todo-[[ todo.id ]]" class="checkbox"
               ng-change="saveStatus()" ng-model="todo.done"/>
@@ -21,7 +21,7 @@
           </div>
           <span class="done-[[todo.done]]">[[ todo.name ]]</span>
         </div>
-        <div class="col-1">
+        <div class="col-2">
           <a href="#delete-todo" class="icon-cross" title="Delete Todo" ng-click="remove()"><span class="hide-text">Delete</span></a>
         </div>
       </label>
