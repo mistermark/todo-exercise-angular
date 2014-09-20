@@ -1,25 +1,24 @@
-    <form name="newItemForm" ng-submit="saveTodo($event)" class="newItemForm">
+    <form name="newItemForm" ng-model="newTodo" ng-submit="saveTodo($event)" class="newItemForm">
       <div class="todo-item add-new">
         <label for="todo-new" ng-model="newTodo">
           <div class="col-12 todo-descr">
-            <input type="text" class="todo-name input-medium col-8" placeholder="Enter a title" ng-model="newTodo.name" name="name"/>
-            <input type="hidden" ng-model="newTodo.id" name="id"/>
-            <input type="hidden" ng-model="newTodo.done" value="false" name="id"/>
+            <input type="text" class="todo-name input-medium col-8" placeholder="Enter a title" ng-model="newTodo.title" name="title"/>
+            <input type="hidden" ng-model="newTodo.done" value="false" name="done"/>
             <button type="submit" class="icon-tick icon-btn"><span class="hide-text">Save</span></button>
           </div>
         </label>
       </div>
     </form>
 
-    <div ng-repeat="todo in todos track by $index" class="todo-item" id="[[ todo.id ]]" todo-item="" ng-model="todo">
-      <label for="todo-[[ todo.id ]]" ng-class="{ done: todo.done === true }">
+    <div ng-repeat="todo in todos track by $index" class="todo-item" id="[[ todo._id ]]" todo-item="" ng-model="todo">
+      <label for="todo-[[ todo._id ]]" ng-class="{ done: todo.done === true }">
         <div class="col-10 todo-descr">
           <div class="checkbox">
-            <input type="checkbox" name="todo-[[ todo.id ]]" id="todo-[[ todo.id ]]" class="checkbox"
+            <input type="checkbox" name="todo-[[ todo._id ]]" id="todo-[[ todo._id ]]" class="checkbox"
               ng-change="saveStatus()" ng-model="todo.done"/>
-            <label for="todo-[[ todo.id ]]"></label>
+            <label for="todo-[[ todo._id ]]"></label>
           </div>
-          <span class="done-[[todo.done]]">[[ todo.name ]]</span>
+          <span class="done-[[todo.done]]">[[ todo.title ]]</span>
         </div>
         <div class="col-2">
           <a href="#delete-todo" class="icon-cross" title="Delete Todo" ng-click="remove()"><span class="hide-text">Delete</span></a>

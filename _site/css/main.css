@@ -400,7 +400,7 @@ header {
   .todos .todo-item:not(.add-new):hover {
     background-color: #faf9f9; }
     .todos .todo-item:not(.add-new):hover .icon-cross {
-      display: inline-block; }
+      visibility: visible; }
   .todos .todo-item.add-new {
     background-color: #d7cfcf;
     border: 1px solid #c0b3b3; }
@@ -408,7 +408,7 @@ header {
     text-decoration: line-through;
     color: #b3b3b3; }
   .todos .todo-item .icon-cross {
-    display: none;
+    visibility: hidden;
     text-align: center;
     color: #787878;
     font-size: 1.6em;

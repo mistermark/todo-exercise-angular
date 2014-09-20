@@ -1,7 +1,5 @@
 /* global angular */
 
-// localStorage.setItem("todoist-ang", '[{"name": "Make coffee", "id": 4, "done": false}, {"name": "Buy milk", "id": 3, "done": true}, {"name": "Put out the trash", "id": 2, "done": true}, {"name": "Drink a beer", "id": 1, "done": true}]');
-
 /**
  * todoApp Module
  *
@@ -13,21 +11,33 @@
 var app = angular.module("todoApp", []);
 
 
-app.config(["$interpolateProvider", function($interpolateProvider) {
-  $interpolateProvider.startSymbol("[[").endSymbol("]]");
-}]);
+app.config(["$interpolateProvider", "$httpProvider",
+  function($interpolateProvider, $httpProvider) {
+    $interpolateProvider.startSymbol("[[").endSymbol("]]");
+
+    $httpProvider.defaults.headers.common = {};
+    $httpProvider.defaults.headers.post = {};
+    $httpProvider.defaults.headers.put = {};
+    $httpProvider.defaults.headers.patch = {};
+    // $httpProvider.defaults.useXDomain = true;
+    // delete $httpProvider.defaults.headers.common['X-Requested-With'];
+  }
+]);
 
 
 app.factory('settings', function(){
   return {
-    "appname": "todoist-ang"
+    "appname": "todoist-ang",
+    "apiUrl": "http://localhost:5123/api/todos"
   }
 });
 
 
-app.controller("TodoController", ["$scope", "settings", "storage", function($scope, settings, storage) {
+app.controller("TodoController", ["$scope", "$http", "settings", "storage", function($scope, $http, settings, storage) {
 
-  $scope.todos = storage.get(settings.appname);
+  storage.get(function (res) {
+    $scope.todos = res;
+  });
 
 }]);
 
@@ -46,71 +56,88 @@ app.directive("todoItem", ["storage", function(storage){
 }]);
 
 
-app.factory("storage", ["$filter", "settings", function($filter, settings){
+app.factory("storage", ["$http", "$filter", "settings", function($http, $filter, settings){
   var localStore = JSON.parse(localStorage.getItem(settings.appname));
   return {
 
-    get: function(sorted) {
-      if(sorted === true) {
-        return $filter("orderBy")(localStore, "id", false);
-      } else {
-        return localStore;
-      }
+    get: function(callback) {
+      $http.get(settings.apiUrl).success(callback);
     },
-    set: function(item) {
-      if(item.length > 1) {
-        localStorage.setItem(settings.appname, JSON.stringify(item));
-      } else {
-        localStore.unshift(item);
-        localStorage.setItem(settings.appname, JSON.stringify(localStore));
-      }
+
+    set: function(item, callback) {
+      console.log(item);
+      // if(item.length > 1) {
+      //   localStorage.setItem(settings.appname, JSON.stringify(item));
+      // } else {
+        // remoteStore.unshift(item);
+        // localStorage.setItem(settings.appname, JSON.stringify(remoteStore));
+      // }
+      // $http.post(settings.apiUrl, item.title).success(callback);
+      $http({
+        url: settings.apiUrl,
+        method: "POST",
+        data: item
+      }).success(function(res, status) {
+
+      })
+      .error(function(mssg) {
+
+      });
     },
+
     update: function(item) {
-      for (var i = 0; i < localStore.length; i++) {
-        if(localStore[i].id === item.id) {
-          localStore.done = item.done;
+      for (var i = 0; i < remoteStore.length; i++) {
+        if(remoteStore[i].id === item.id) {
+          remoteStore.done = item.done;
         }
       }
-      localStorage.setItem(settings.appname, JSON.stringify(localStore));
+      localStorage.setItem(settings.appname, JSON.stringify(remoteStore));
     },
+
     remove: function(item) {
-      for (var i = 0; i < localStore.length; i++) {
-        if(localStore[i].id === item.id) {
-          localStore.splice(i, 1);
+      for (var i = 0; i < remoteStore.length; i++) {
+        if(remoteStore[i].id === item.id) {
+          remoteStore.splice(i, 1);
         }
       }
-      localStorage.setItem(settings.appname, JSON.stringify(localStore));
+      localStorage.setItem(settings.appname, JSON.stringify(remoteStore));
+    },
+
+    refresh: function(item) {
+      //...
     }
 
   };
 }]);
 
 
-app.directive("todoAddnew", ["$filter", "$templateCache", "storage", function($filter, $templateCache, storage) {
+app.directive("todoAddnew", ["$filter", "$http", "storage", "settings", function($filter, $http, storage, settings) {
   return {
     link: function($scope) {
+
 
 
       $scope.addTodo = function() {
         angular.element(".newItemForm").show().find("input").focus();
       };
 
+      $scope.newTodo = {};
+
       $scope.saveTodo = function() {
-        $scope.sorted = storage.get(true);
+        console.log($scope.newTodo);
 
-        $scope.newTodo.id = ($scope.sorted.length ? $scope.sorted[$scope.sorted.length - 1].id + 1 : 1);
+        $http.post(settings.apiUrl, $scope.newTodo).success(function(res){
+          console.log(res);
+        });
+        // var newItem = {
+        //   "title": $scope.newTodo.title,
+        //   "done": false
+        // };
 
-        var newItem = {
-          "id": $scope.newTodo.id,
-          "name": $scope.newTodo.name,
-          "done": false
-        };
+        // storage.set(newItem);
 
-        storage.set(newItem);
-
-        angular.element(".newItemForm").hide();
-        $scope.newTodo.name = "";
-        $scope.newTodo.id = "";
+        // angular.element(".newItemForm").hide();
+        // $scope.newTodo.title = "";
       };
 
     }
