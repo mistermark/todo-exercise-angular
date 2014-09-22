@@ -28,6 +28,21 @@ $screen-mobile-max:     $screen-tablet-min - 1;
 $screen-tablet-max:     $screen-desktop-min - 1;
 $screen-desktop-max:    $screen-mobile * 4;
 
-$icon-font:       "Todo Icons";
+$icon-font:               "Todo Icons";
+$huge-size-mobile:        4em;
+$huge-size-tablet:        $huge-size-mobile * 1.2;
+$huge-size-desktop:       $huge-size-tablet * 1.4;
+
+$small-size-mobile:         1.5em;
+$small-size-tablet:         $small-size-mobile * 1.3;
+$small-size-desktop:        $small-size-tablet * 1.2;
+
+$checkbox-size-mobile:      18px;
+$checkbox-size-tablet:      $checkbox-size-mobile + 2;
+$checkbox-size-desktop:     $checkbox-size-tablet + 4;
+
+$checkbox-distance-mobile:    4px;
+$checkbox-distance-tablet:    5px;
+$checkbox-distance-desktop:   5px;
 
 $btn-huge-multiplier:     6;

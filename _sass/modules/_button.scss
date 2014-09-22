@@ -23,28 +23,61 @@
   margin: 0 0.8em;
 }
 .btn-huge {
-  width: 4em;
-  height: 4em;
+  width: $huge-size-mobile;
+  height: $huge-size-mobile;
+  line-height: $huge-size-mobile;
   &:after {
-    font-size: 4em;
+    font-size: $huge-size-mobile;
     position: relative;
     top: 1px;
   }
   @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
     & {
-      width: 5em;
-      height: 5em;
+      width: $huge-size-tablet;
+      height: $huge-size-tablet;
+      line-height: $huge-size-tablet;
       &:after {
-        font-size: 5em;
+        font-size: $huge-size-tablet;
       }
     }
   }
   @media (min-width: $screen-desktop-min) {
     & {
-      width: 6em;
-      height: 6em;
+      width: $huge-size-desktop;
+      height: $huge-size-desktop;
+      line-height: $huge-size-desktop;
       &:after {
-        font-size: 6em;
+        font-size: $huge-size-desktop;
+      }
+    }
+  }
+}
+.btn-xs {
+  width: $small-size-mobile;
+  height: $small-size-mobile;
+  line-height: $small-size-mobile;
+  &:after {
+    font-size: $small-size-mobile;
+    position: relative;
+    top: 1px;
+  }
+  @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
+    & {
+      width: $small-size-tablet;
+      height: $small-size-tablet;
+      line-height: $small-size-tablet;
+      &:after {
+        font-size: $small-size-tablet;
+      }
+    }
+  }
+  @media (min-width: $screen-desktop-min) {
+    & {
+      width: $small-size-desktop;
+      height: $small-size-desktop;
+      line-height: $small-size-desktop;
+      &:after {
+        font-size: $small-size-desktop;
       }
     }
   }
@@ -52,15 +85,5 @@
 .btn-round {
   border-radius: 50%;
   padding: 0;
-  line-height: 4em;
-  @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
-    & {
-      line-height: 5em;
-    }
-  }
-  @media (min-width: $screen-desktop-min) {
-    & {
-      line-height: 6em;
-    }
-  }
+
 }

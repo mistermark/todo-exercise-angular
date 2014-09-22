@@ -9,11 +9,7 @@
 
     > label {
       @extend .wrap;
-      // padding-top: 8px;
-      // padding-bottom: 8px;
       text-transform: uppercase;
-      // font-size: 1em;
-      // line-height: 1.5em;
       div.checkbox {
         margin-right: 0.4em;
       }
@@ -25,40 +21,45 @@
 
     &:not(.add-new):hover {
       background-color: #faf9f9;
-      & .icon-cross {
-        visibility: visible;
-      }
     }
 
     &.add-new {
       background-color: darken(#faf9f9, 15%);
       border: 1px solid darken(#faf9f9, 25%);
     }
-
-    label.done .todo-descr span {
+    .todo-title {
+      font-size: 1.2em;
+    }
+    label.done .todo-title span {
       text-decoration: line-through;
       color: lighten(#333, 50%);
     }
-    .icon-cross {
-      // display: none;
-      visibility: hidden;
+    .todo-delete {
+      @extend .icon;
+      @extend .icon-cross;
+      @extend .btn;
+      @extend .btn-xs;
+      @extend .btn-round;
+      display: inline-block;
       text-align: center;
-      // float: right;
       color: $grey;
-      font-size: 1.6em;
-      // line-height: emtopx(1.5, 16);
       text-decoration: none;
     }
   }
 }
 
-@media (max-width: $screen-mobile-max) {
+@media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
   .todos {
-    .todo-item:not(.add-new):hover {
-      // background-color: #faf9f9;
-      & .todo-delete {
-        // display: block;
-      }
+    .todo-title {
+      line-height: 1.6em;
+    }
+  }
+}
+
+@media (min-width: $screen-desktop-min) and (max-width: $screen-desktop-max) {
+  .todos {
+    .todo-title {
+      line-height: 2em;
     }
   }
 }

@@ -29,6 +29,20 @@ You can remove an individual item by hovering on it and there will appear a TRAS
 
 If you want to remove all items from the task board, just check all items as DONE manually, or by clicking COMPLETE ALL and then click CLEAR COMPLETED.
 
+## Required initial settings
+
+To get this app running on your own MongoDB database hosting (private or shared) you should have a Javascript file included in your 
+
+````
+var app = angular.module("todoConfig", []);
+
+app.factory("settings", function() {
+  return {
+    "apiUrl": "http://localhost:5123/api/todos"
+  };
+});
+````
+
 ## Instructions to run the App using Jekyll
 
 ### Requirements

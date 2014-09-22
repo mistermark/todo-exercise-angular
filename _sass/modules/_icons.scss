@@ -1,5 +1,5 @@
 
-[class*="icon-"] {
+.icon {
   position: relative;
   &:before,
   &:after {
@@ -19,12 +19,4 @@
 }
 .icon-plus:after {
   content: "\e603";
-}
-.icon-double-tick {
-  &:before {
-    content: "\e602";
-  }
-  &:after {
-    content: "\e602";
-  }
 }

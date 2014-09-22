@@ -20,7 +20,10 @@ header {
   div[class*="col-"] {
     text-align: center;
   }
-  .btn {
+  .todo-add {
+    @extend .icon;
+    @extend .icon-plus;
+    @extend .btn;
     @extend .btn-huge;
     @extend .btn-round;
     text-align: center;

@@ -323,27 +323,22 @@ a {
 label {
   cursor: pointer; }
 
-[class*="icon-"] {
+.icon, header .todo-add, .todos .todo-item .todo-delete {
   position: relative; }
-  [class*="icon-"]:before, [class*="icon-"]:after {
+  .icon:before, header .todo-add:before, .todos .todo-item .todo-delete:before, .icon:after, header .todo-add:after, .todos .todo-item .todo-delete:after {
     font-family: "Todo Icons"; }
 
 .icon-tick:after {
   content: "\e602"; }
 
-.icon-cross:after {
+.icon-cross:after, .todos .todo-item .todo-delete:after {
   content: "\e600"; }
 
 .icon-circle:after {
   content: "\e601"; }
 
-.icon-plus:after {
+.icon-plus:after, header .todo-add:after {
   content: "\e603"; }
-
-.icon-double-tick:before {
-  content: "\e602"; }
-.icon-double-tick:after {
-  content: "\e602"; }
 
 header {
   background: #019875;
@@ -360,7 +355,7 @@ header {
     margin: 0; }
   header div[class*="col-"] {
     text-align: center; }
-  header .btn, header .btn-ctrl, header .icon-btn {
+  header .todo-add {
     text-align: center; }
 
 .footer .brand__logo {
@@ -399,21 +394,26 @@ header {
       color: #b3b3b3; }
   .todos .todo-item:not(.add-new):hover {
     background-color: #faf9f9; }
-    .todos .todo-item:not(.add-new):hover .icon-cross {
-      visibility: visible; }
   .todos .todo-item.add-new {
     background-color: #d7cfcf;
     border: 1px solid #c0b3b3; }
-  .todos .todo-item label.done .todo-descr span {
+  .todos .todo-item .todo-title {
+    font-size: 1.2em; }
+  .todos .todo-item label.done .todo-title span {
     text-decoration: line-through;
     color: #b3b3b3; }
-  .todos .todo-item .icon-cross {
-    visibility: hidden;
+  .todos .todo-item .todo-delete {
+    display: inline-block;
     text-align: center;
     color: #787878;
-    font-size: 1.6em;
     text-decoration: none; }
 
+@media (min-width: 480px) and (max-width: 767px) {
+  .todos .todo-title {
+    line-height: 1.6em; } }
+@media (min-width: 768px) and (max-width: 1280px) {
+  .todos .todo-title {
+    line-height: 2em; } }
 form.newItemForm {
   display: none; }
 form .input-medium {
@@ -421,7 +421,7 @@ form .input-medium {
   width: 80%;
   font-size: 1.2em; }
 
-.btn, .btn-ctrl, .icon-btn {
+.btn, header .todo-add, .todos .todo-item .todo-delete, .btn-ctrl, .icon-btn {
   display: inline-block;
   vertical-align: middle;
   border: none;
@@ -429,7 +429,7 @@ form .input-medium {
   color: #019875;
   text-transform: uppercase;
   padding: 0.5em 1.8em; }
-  .lt-ie8 .btn, .lt-ie8 .btn-ctrl, .lt-ie8 .icon-btn {
+  .lt-ie8 .btn, .lt-ie8 header .todo-add, header .lt-ie8 .todo-add, .lt-ie8 .todos .todo-item .todo-delete, .todos .todo-item .lt-ie8 .todo-delete, .lt-ie8 .btn-ctrl, .lt-ie8 .icon-btn {
     display: inline;
     zoom: 1; }
 
@@ -445,42 +445,61 @@ form .input-medium {
   padding: 0.4em;
   margin: 0 0.8em; }
 
-.btn-huge, header .btn, header .btn-ctrl, header .icon-btn {
+.btn-huge, header .todo-add {
   width: 4em;
-  height: 4em; }
-  .btn-huge:after, header .btn:after, header .btn-ctrl:after, header .icon-btn:after {
+  height: 4em;
+  line-height: 4em; }
+  .btn-huge:after, header .todo-add:after {
     font-size: 4em;
     position: relative;
     top: 1px; }
   @media (min-width: 480px) and (max-width: 767px) {
-    .btn-huge, header .btn, header .btn-ctrl, header .icon-btn {
-      width: 5em;
-      height: 5em; }
-      .btn-huge:after, header .btn:after, header .btn-ctrl:after, header .icon-btn:after {
-        font-size: 5em; } }
+    .btn-huge, header .todo-add {
+      width: 4.8em;
+      height: 4.8em;
+      line-height: 4.8em; }
+      .btn-huge:after, header .todo-add:after {
+        font-size: 4.8em; } }
   @media (min-width: 768px) {
-    .btn-huge, header .btn, header .btn-ctrl, header .icon-btn {
-      width: 6em;
-      height: 6em; }
-      .btn-huge:after, header .btn:after, header .btn-ctrl:after, header .icon-btn:after {
-        font-size: 6em; } }
+    .btn-huge, header .todo-add {
+      width: 6.72em;
+      height: 6.72em;
+      line-height: 6.72em; }
+      .btn-huge:after, header .todo-add:after {
+        font-size: 6.72em; } }
 
-.btn-round, header .btn, header .btn-ctrl, header .icon-btn {
-  border-radius: 50%;
-  padding: 0;
-  line-height: 4em; }
+.btn-xs, .todos .todo-item .todo-delete {
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em; }
+  .btn-xs:after, .todos .todo-item .todo-delete:after {
+    font-size: 1.5em;
+    position: relative;
+    top: 1px; }
   @media (min-width: 480px) and (max-width: 767px) {
-    .btn-round, header .btn, header .btn-ctrl, header .icon-btn {
-      line-height: 5em; } }
+    .btn-xs, .todos .todo-item .todo-delete {
+      width: 1.95em;
+      height: 1.95em;
+      line-height: 1.95em; }
+      .btn-xs:after, .todos .todo-item .todo-delete:after {
+        font-size: 1.95em; } }
   @media (min-width: 768px) {
-    .btn-round, header .btn, header .btn-ctrl, header .icon-btn {
-      line-height: 6em; } }
+    .btn-xs, .todos .todo-item .todo-delete {
+      width: 2.34em;
+      height: 2.34em;
+      line-height: 2.34em; }
+      .btn-xs:after, .todos .todo-item .todo-delete:after {
+        font-size: 2.34em; } }
+
+.btn-round, header .todo-add, .todos .todo-item .todo-delete {
+  border-radius: 50%;
+  padding: 0; }
 
 .checkbox {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   position: relative;
-  top: 3px;
+  top: 4px;
   margin: 0 0;
   background: white;
   display: inline-block;
@@ -488,16 +507,16 @@ form .input-medium {
   -moz-box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.4);
   box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.4); }
   .checkbox label {
-    width: 10px;
-    height: 10px;
+    width: 11px;
+    height: 11px;
     position: absolute;
     top: 4px;
-    left: 3px;
+    left: 4px;
     cursor: pointer; }
     .checkbox label:after {
       content: '';
-      width: 10px;
-      height: 10px;
+      width: 11px;
+      height: 11px;
       position: absolute;
       top: 0;
       left: 0;
@@ -509,3 +528,30 @@ form .input-medium {
     visibility: hidden; }
     .checkbox input[type=checkbox]:checked + label:after {
       opacity: 1; }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    top: 5px; }
+    .checkbox label {
+      width: 12px;
+      height: 12px;
+      top: 5px;
+      left: 5px; }
+      .checkbox label:after {
+        width: 12px;
+        height: 12px; } }
+@media (min-width: 768px) and (max-width: 1280px) {
+  .checkbox {
+    width: 24px;
+    height: 24px;
+    top: 5px; }
+    .checkbox label {
+      width: 15.12px;
+      height: 15.12px;
+      top: 5px;
+      left: 5px; }
+      .checkbox label:after {
+        width: 15.12px;
+        height: 15.12px; } }
