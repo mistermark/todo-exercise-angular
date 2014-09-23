@@ -43,7 +43,6 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
       };
 
       storage.set($scope.newTodo, function(res, status) {
-        console.log(res);
         if (status == 200 && res.status === "SUCCESS") {
           newItem._id = res.object.id;
           newItem.done = false;
