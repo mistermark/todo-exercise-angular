@@ -28,10 +28,16 @@ $screen-mobile-max:     $screen-tablet-min - 1;
 $screen-tablet-max:     $screen-desktop-min - 1;
 $screen-desktop-max:    $screen-mobile * 4;
 
+// Icons & Buttons
 $icon-font:               "Todo Icons";
+
 $huge-size-mobile:        4em;
 $huge-size-tablet:        $huge-size-mobile * 1.2;
 $huge-size-desktop:       $huge-size-tablet * 1.4;
+
+$large-size-mobile:        3em;
+$large-size-tablet:        $large-size-mobile * 1.2;
+$large-size-desktop:       $large-size-tablet * 1.4;
 
 $small-size-mobile:         1.5em;
 $small-size-tablet:         $small-size-mobile * 1.3;

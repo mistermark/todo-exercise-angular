@@ -8,15 +8,18 @@
 }
 
 // Icons: http://thenounproject.com/tlb/
-.icon-tick:after {
-  content: "\e602";
-}
 .icon-cross:after {
   content: "\e600";
 }
 .icon-circle:after {
   content: "\e601";
 }
+.icon-tick:after {
+  content: "\e602";
+}
 .icon-plus:after {
   content: "\e603";
+}
+.icon-refresh:after {
+  content: "\e604";
 }

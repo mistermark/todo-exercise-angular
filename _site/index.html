@@ -7,7 +7,7 @@
     <title>Personal Todo App</title>
     <meta name="viewport" content="width=device-width"/>
     <meta name="description" content="This is a basic Todo application, where you can add, remove and highlight a specific item as done."/>
-    <link rel="canonical" href="http://markdejong.com/examples/todo-list/"/>
+    <link rel="canonical" href="http://localhost:4000/"/>
 
     <!-- Google Fonts API -->
     <link href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet" type="text/css"/>
@@ -15,11 +15,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/main.css"/>
 
-    <script type="text/javascript" src="/scripts/vendor/jquery-1.11.1.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="/scripts/vendor/angular.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="/scripts/vendor/angular-resource.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="/scripts/main.js" charset="utf-8"></script>
-<script type="text/javascript" src="/scripts/angular-todo.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://localhost:4000/scripts/vendor/jquery-1.11.1.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://localhost:4000/scripts/vendor/angular.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://localhost:4000/scripts/vendor/angular-resource.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://localhost:4000/scripts/main.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://localhost:4000/scripts/angular-todo.js" charset="utf-8"></script>
 
 
 </head>
@@ -34,16 +34,14 @@
         <div class="wrap">
           <div class="row">
 
-            <div class="col-4">
-              <!-- <button name="complete_all" type="button" class="btn btn__complete icon-tick" ng-click="completeAll()"><span class="hide-text">Complete All</span></button> -->
-            </div>
+            <div class="col-4"></div>
 
             <div class="col-4">
               <button name="addtodo" type="button" class="todo-add" id="add-todo" todo-addnew="" ng-click="addTodo('#todo-list')"><span class="hide-text">Add</span></button>
             </div>
 
             <div class="col-4">
-              <!-- <button name="clear_complete" type="button" class="btn btn__clear icon-cross" ng-click="clearCompleted()"><span class="hide-text">Clear Completed</span></button> -->
+              <a class="todo-refresh" ng-click="refresh()"><span class="hide-text">Refresh</span></a>
             </div>
 
           </div>

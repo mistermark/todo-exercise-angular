@@ -27,7 +27,6 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
     $scope.busy = false;
 
     storage.get(function(res, status) {
-      console.log(status, res);
       if (status === 200) {
         $scope.todos = res;
       }
@@ -86,9 +85,20 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
           }
           $scope.busy = false;
         });
-
       }
     };
+
+    $scope.refresh = function () {
+      if (!$scope.busy) {
+        $scope.busy = true;
+        storage.get(function (res, status) {
+          if(status === 200) {
+            $scope.todos = res;
+          }
+          $scope.busy = false;
+        });
+      }
+    }
 
   }
 ]);
@@ -145,7 +155,7 @@ app.factory("storage", ["$http", "$filter", "settings",
         }).success(function(res, status) {
           callback(res, status);
         });
-      },
+      }
 
     };
   }

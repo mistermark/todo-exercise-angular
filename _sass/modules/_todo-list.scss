@@ -9,7 +9,6 @@
 
     > label {
       @extend .wrap;
-      text-transform: uppercase;
       div.checkbox {
         margin-right: 0.4em;
       }
@@ -42,8 +41,9 @@
       @extend .btn-round;
       display: inline-block;
       text-align: center;
-      color: $grey;
+      color: lighten($grey, 25%) !important;
       text-decoration: none;
+        background-color: transparent !important;
     }
   }
 }

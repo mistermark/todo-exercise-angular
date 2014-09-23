@@ -323,13 +323,10 @@ a {
 label {
   cursor: pointer; }
 
-.icon, header .todo-add, .todos .todo-item .todo-delete {
+.icon, header .todo-add, header .todo-refresh, .todos .todo-item .todo-delete {
   position: relative; }
-  .icon:before, header .todo-add:before, .todos .todo-item .todo-delete:before, .icon:after, header .todo-add:after, .todos .todo-item .todo-delete:after {
+  .icon:before, header .todo-add:before, header .todo-refresh:before, .todos .todo-item .todo-delete:before, .icon:after, header .todo-add:after, header .todo-refresh:after, .todos .todo-item .todo-delete:after {
     font-family: "Todo Icons"; }
-
-.icon-tick:after {
-  content: "\e602"; }
 
 .icon-cross:after, .todos .todo-item .todo-delete:after {
   content: "\e600"; }
@@ -337,8 +334,14 @@ label {
 .icon-circle:after {
   content: "\e601"; }
 
+.icon-tick:after {
+  content: "\e602"; }
+
 .icon-plus:after, header .todo-add:after {
   content: "\e603"; }
+
+.icon-refresh:after, header .todo-refresh:after {
+  content: "\e604"; }
 
 header {
   background: #019875;
@@ -354,9 +357,13 @@ header {
   header figure {
     margin: 0; }
   header div[class*="col-"] {
-    text-align: center; }
+    text-align: center;
+    line-height: 4em; }
   header .todo-add {
     text-align: center; }
+  header .todo-refresh {
+    color: rgba(255, 255, 255, 0.4) !important;
+    background-color: transparent !important; }
 
 .footer .brand__logo {
   background: transparent url("/media/logo-lbi.png") no-repeat center;
@@ -385,13 +392,11 @@ header {
   cursor: pointer;
   background-color: #eae9e9;
   margin: 2px 0; }
-  .todos .todo-item > label {
-    text-transform: uppercase; }
-    .todos .todo-item > label div.checkbox {
-      margin-right: 0.4em; }
-    .todos .todo-item > label input.checkbox:checked + span {
-      text-decoration: line-through;
-      color: #b3b3b3; }
+  .todos .todo-item > label div.checkbox {
+    margin-right: 0.4em; }
+  .todos .todo-item > label input.checkbox:checked + span {
+    text-decoration: line-through;
+    color: #b3b3b3; }
   .todos .todo-item:not(.add-new):hover {
     background-color: #faf9f9; }
   .todos .todo-item.add-new {
@@ -405,8 +410,9 @@ header {
   .todos .todo-item .todo-delete {
     display: inline-block;
     text-align: center;
-    color: #787878;
-    text-decoration: none; }
+    color: #b8b8b8 !important;
+    text-decoration: none;
+    background-color: transparent !important; }
 
 @media (min-width: 480px) and (max-width: 767px) {
   .todos .todo-title {
@@ -421,15 +427,17 @@ form .input-medium {
   width: 80%;
   font-size: 1.2em; }
 
-.btn, header .todo-add, .todos .todo-item .todo-delete, .btn-ctrl, .icon-btn {
+.btn, header .todo-add, header .todo-refresh, .todos .todo-item .todo-delete, .btn-ctrl, .icon-btn {
   display: inline-block;
   vertical-align: middle;
   border: none;
   background-color: white;
   color: #019875;
   text-transform: uppercase;
-  padding: 0.5em 1.8em; }
-  .lt-ie8 .btn, .lt-ie8 header .todo-add, header .lt-ie8 .todo-add, .lt-ie8 .todos .todo-item .todo-delete, .todos .todo-item .lt-ie8 .todo-delete, .lt-ie8 .btn-ctrl, .lt-ie8 .icon-btn {
+  padding: 0.5em 1.8em;
+  text-decoration: none;
+  cursor: pointer; }
+  .lt-ie8 .btn, .lt-ie8 header .todo-add, header .lt-ie8 .todo-add, .lt-ie8 header .todo-refresh, header .lt-ie8 .todo-refresh, .lt-ie8 .todos .todo-item .todo-delete, .todos .todo-item .lt-ie8 .todo-delete, .lt-ie8 .btn-ctrl, .lt-ie8 .icon-btn {
     display: inline;
     zoom: 1; }
 
@@ -468,6 +476,29 @@ form .input-medium {
       .btn-huge:after, header .todo-add:after {
         font-size: 6.72em; } }
 
+.btn-large, header .todo-refresh {
+  width: 3em;
+  height: 3em;
+  line-height: 3em; }
+  .btn-large:after, header .todo-refresh:after {
+    font-size: 3em;
+    position: relative;
+    top: 1px; }
+  @media (min-width: 480px) and (max-width: 767px) {
+    .btn-large, header .todo-refresh {
+      width: 3.6em;
+      height: 3.6em;
+      line-height: 3.6em; }
+      .btn-large:after, header .todo-refresh:after {
+        font-size: 3.6em; } }
+  @media (min-width: 768px) {
+    .btn-large, header .todo-refresh {
+      width: 5.04em;
+      height: 5.04em;
+      line-height: 5.04em; }
+      .btn-large:after, header .todo-refresh:after {
+        font-size: 5.04em; } }
+
 .btn-xs, .todos .todo-item .todo-delete {
   width: 1.5em;
   height: 1.5em;
@@ -491,7 +522,7 @@ form .input-medium {
       .btn-xs:after, .todos .todo-item .todo-delete:after {
         font-size: 2.34em; } }
 
-.btn-round, header .todo-add, .todos .todo-item .todo-delete {
+.btn-round, header .todo-add, header .todo-refresh, .todos .todo-item .todo-delete {
   border-radius: 50%;
   padding: 0; }
 

@@ -5,7 +5,8 @@
   color: $green;
   text-transform: uppercase;
   padding: 0.5em 1.8em;
-
+    text-decoration: none;
+    cursor: pointer;
 }
 .btn-ctrl {
   @extend .btn;
@@ -48,6 +49,36 @@
       line-height: $huge-size-desktop;
       &:after {
         font-size: $huge-size-desktop;
+      }
+    }
+  }
+}
+.btn-large {
+  width: $large-size-mobile;
+  height: $large-size-mobile;
+  line-height: $large-size-mobile;
+  &:after {
+    font-size: $large-size-mobile;
+    position: relative;
+    top: 1px;
+  }
+  @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
+    & {
+      width: $large-size-tablet;
+      height: $large-size-tablet;
+      line-height: $large-size-tablet;
+      &:after {
+        font-size: $large-size-tablet;
+      }
+    }
+  }
+  @media (min-width: $screen-desktop-min) {
+    & {
+      width: $large-size-desktop;
+      height: $large-size-desktop;
+      line-height: $large-size-desktop;
+      &:after {
+        font-size: $large-size-desktop;
       }
     }
   }

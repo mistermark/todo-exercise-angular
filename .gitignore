@@ -1,3 +1,4 @@
-# _site
+_site
 .sass-cache
 *.sublime-project
+_config_dist.yml

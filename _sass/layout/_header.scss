@@ -19,6 +19,7 @@ header {
   }
   div[class*="col-"] {
     text-align: center;
+    line-height: $huge-size-mobile;
   }
   .todo-add {
     @extend .icon;
@@ -27,5 +28,14 @@ header {
     @extend .btn-huge;
     @extend .btn-round;
     text-align: center;
+  }
+  .todo-refresh {
+    @extend .icon;
+    @extend .icon-refresh;
+    @extend .btn;
+    @extend .btn-large;
+    @extend .btn-round;
+    color: rgba(255,255,255,0.4) !important;
+    background-color: transparent !important;
   }
 }
