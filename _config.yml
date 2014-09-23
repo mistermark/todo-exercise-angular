@@ -2,14 +2,14 @@
 title: Personal Todo App
 email: mark@markdejong.com
 description: "This is a basic Todo application, where you can add, remove and highlight a specific item as done."
-baseurl: ""
-url: "http://markdejong.com/examples/todo-list"
-twitter_username: mdejong83
-github_username:  mistermark
+baseurl:
+url: http://localhost:4000
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude: ["README.md"]
 
 sass:
   sass_dir:         _sass
