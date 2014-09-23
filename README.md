@@ -31,7 +31,7 @@ If you want to remove all items from the task board, just check all items as DON
 
 ## Required initial settings
 
-To get this app running on your own MongoDB database hosting (private or shared) you should have a Javascript file included in your 
+To get this app running on your own MongoDB installation (private or shared) you should have a Javascript file included on your page with the following config: 
 
 ````
 var app = angular.module("todoConfig", []);
@@ -42,6 +42,8 @@ app.factory("settings", function() {
   };
 });
 ````
+This allows you to configure the URL for your database hosting, and in addition for your own custom configuration properties.
+
 
 ## Instructions to run the App using Jekyll
 
