@@ -20,6 +20,16 @@ header {
   div[class*="col-"] {
     text-align: center;
     line-height: $huge-size-mobile;
+    @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
+      & {
+        line-height: $huge-size-tablet;
+      }
+    }
+    @media (min-width: $screen-desktop-min) and (max-width: $screen-desktop-max) {
+      & {
+        line-height: $huge-size-desktop;
+      }
+    }
   }
   .todo-add {
     @extend .icon;
