@@ -4,6 +4,7 @@ email: mark@markdejong.com
 description: "This is a basic Todo application, where you can add, remove and highlight a specific item as done."
 baseurl:
 url: http://localhost:4000
+api: http://localhost:5123/api/todos
 
 # Build settings
 markdown: kramdown
