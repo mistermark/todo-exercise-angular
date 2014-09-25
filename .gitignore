@@ -1,4 +1,5 @@
 _site
 .sass-cache
 *.sublime-project
+*.sublime-workspace
 _config_dist.yml

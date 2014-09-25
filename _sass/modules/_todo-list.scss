@@ -25,6 +25,12 @@
     &.add-new {
       background-color: darken(#faf9f9, 15%);
       border: 1px solid darken(#faf9f9, 25%);
+      div[class*="col-"] {
+        line-height: 2.4em;
+      }
+      input[type="text"] {
+        width: 95%;
+      }
     }
     .todo-title {
       font-size: 1.2em;
@@ -32,6 +38,9 @@
     label.done .todo-title span {
       text-decoration: line-through;
       color: lighten(#333, 50%);
+    }
+    .todo-action {
+      text-align: right;
     }
     .todo-delete {
       @extend .icon;
@@ -42,6 +51,18 @@
       display: inline-block;
       text-align: center;
       color: lighten($grey, 25%) !important;
+      text-decoration: none;
+        background-color: transparent !important;
+    }
+    .todo-create {
+      @extend .icon;
+      @extend .icon-tick;
+      @extend .btn;
+      @extend .btn-xs;
+      @extend .btn-round;
+      display: inline-block;
+      text-align: center;
+      color: lighten($grey, 5%) !important;
       text-decoration: none;
         background-color: transparent !important;
     }

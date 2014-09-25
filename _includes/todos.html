@@ -1,9 +1,11 @@
     <form name="newItemForm" ng-submit="saveTodo($event, newTodo)" class="newItemForm">
       <div class="todo-item add-new">
         <label for="todo-new">
-          <div class="col-12 todo-descr">
+          <div class="col-10 todo-descr">
             <input type="text" class="todo-name input-medium col-8" placeholder="Enter a title" ng-model="newTodo.title" name="title"/>
-            <button type="submit" class="icon-tick icon-btn"><span class="hide-text">Save</span></button>
+          </div>
+          <div class="col-2 todo-action">
+            <button type="submit" class="todo-create"><span class="hide-text">Save</span></button>
           </div>
         </label>
       </div>
@@ -11,17 +13,15 @@
 
     <div ng-repeat="todo in todos track by $index" class="todo-item" id="[[ todo._id ]]" todo-item="" ng-model="todo">
       <label for="todo-[[ todo._id ]]" ng-class="{ done: todo.done === true }">
-        <div class="col-10">
-          <div class="todo-title">
+        <div class="col-10 todo-title">
             <div class="checkbox">
               <input type="checkbox" name="todo-[[ todo._id ]]" id="todo-[[ todo._id ]]" class="checkbox"
                 ng-change="saveStatus(todo)" ng-model="todo.done"/>
               <label for="todo-[[ todo._id ]]"></label>
             </div>
             <span class="done-[[todo.done]]">[[ todo.title ]]</span>
-          </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 todo-action">
           <a href="#delete-todo" class="todo-delete" title="Delete Todo" ng-click="remove(todo)"><span class="hide-text">Delete</span></a>
         </div>
       </label>

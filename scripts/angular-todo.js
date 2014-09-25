@@ -54,6 +54,7 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
           $scope.newItemForm.$setPristine;
         }
       });
+
     };
 
     $scope.saveStatus = function(todo) {
