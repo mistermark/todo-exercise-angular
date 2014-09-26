@@ -2,7 +2,7 @@
       <div class="todo-item add-new">
         <label for="todo-new">
           <div class="col-10 todo-descr">
-            <input type="text" class="todo-name input-medium col-8" placeholder="Enter a title" ng-model="newTodo.title" name="title"/>
+            <input type="text" class="todo-name input-medium col-8" focus-on="focusMe" ng-keyup="keyUp($event)" placeholder="Enter a title" ng-model="newTodo.title" name="title"/>
           </div>
           <div class="col-2 todo-action">
             <button type="submit" class="todo-create"><span class="hide-text">Save</span></button>

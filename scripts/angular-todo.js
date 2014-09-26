@@ -6,7 +6,7 @@ var app = angular.module("todoApp", ["ngResource", "todoConfig"]);
 
 
 app.config(["$interpolateProvider", "$httpProvider", "$sceDelegateProvider",
-  function($interpolateProvider, $httpProvider) {
+  function ($interpolateProvider, $httpProvider) {
     $interpolateProvider.startSymbol("[[").endSymbol("]]");
 
     $httpProvider.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded; charset=UTF-8;";
@@ -16,8 +16,8 @@ app.config(["$interpolateProvider", "$httpProvider", "$sceDelegateProvider",
 ]);
 
 
-app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
-  function($scope, $http, $resource, storage) {
+app.controller("TodoController", ["$scope", "$http", "$resource", "$timeout", "storage",
+  function ($scope, $http, $resource, $timeout, storage) {
 
     $scope.initial = {
       "title": "",
@@ -26,29 +26,32 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
     };
     $scope.busy = false;
 
-    storage.get(function(res, status) {
+    storage.get(function (res, status) {
       if (status === 200) {
         $scope.todos = res;
       }
     });
 
-    $scope.addTodo = function() {
-      angular.element(".newItemForm").show().find("input").focus();
+    $scope.addTodo = function () {
+      angular.element(".newItemForm").show().find("input[type='text']").focus();
     };
 
-    $scope.saveTodo = function(ev, newTodo) {
+    $scope.saveTodo = function (ev, newTodo) {
 
       var newItem = {
         "title": newTodo.title
       };
 
-      storage.set($scope.newTodo, function(res, status) {
+      storage.set($scope.newTodo, function (res, status) {
         if (status == 200 && res.status === "SUCCESS") {
           newItem._id = res.object.id;
           newItem.done = false;
           $scope.todos.push(newItem);
 
-          angular.element(".newItemForm").hide();
+          $timeout(function () {
+            ev.target[0].blur();
+            angular.element(".newItemForm").hide();
+          }, 0, false);
 
           $scope.newTodo.title = "";
           $scope.newItemForm.$setPristine;
@@ -57,10 +60,10 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
 
     };
 
-    $scope.saveStatus = function(todo) {
+    $scope.saveStatus = function (todo) {
       if (!$scope.busy) {
         $scope.busy = true;
-        storage.update(todo, function(res, status) {
+        storage.update(todo, function (res, status) {
           if (status == 200 && res.status === "SUCCESS") {
             $scope.busy = false;
           }
@@ -68,13 +71,13 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
       }
     };
 
-    $scope.remove = function(todo) {
+    $scope.remove = function (todo) {
       if (!$scope.busy) {
         $scope.busy = true;
-        storage.remove(todo, function(res, status) {
+        storage.remove(todo, function (res, status) {
           var deletedItem;
           if (status == 200 && res.status === "SUCCESS") {
-            $scope.todos.forEach(function(el, i) {
+            $scope.todos.forEach(function (el, i) {
               if (el._id === todo._id) {
                 deletedItem = i;
               }
@@ -92,7 +95,7 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
       if (!$scope.busy) {
         $scope.busy = true;
         storage.get(function (res, status) {
-          if(status === 200) {
+          if (status === 200) {
             $scope.todos = res;
           }
           $scope.busy = false;
@@ -104,20 +107,38 @@ app.controller("TodoController", ["$scope", "$http", "$resource", "storage",
 ]);
 
 
+app.directive("focusOn", function ($timeout) {
+  return {
+    link: function (scope, elm, attrs) {
+
+      scope.keyUp = function (ev) {
+        if (ev.keyCode === 27) {
+          $timeout(function () {
+            elm[0].blur();
+            angular.element(".newItemForm").hide();
+          }, 0, false);
+        }
+      }
+
+    }
+  }
+});
+
+
 app.factory("storage", ["$http", "$filter", "settings",
-  function($http, $filter, settings) {
+  function ($http, $filter, settings) {
     return {
 
-      get: function(callback) {
+      get: function (callback) {
         $http({
           method: "GET",
           url: settings.apiUrl
-        }).success(function(res, status) {
+        }).success(function (res, status) {
           callback(res, status);
         });
       },
 
-      set: function(item, callback) {
+      set: function (item, callback) {
         item.done = "false";
         $http({
           method: "POST",
@@ -130,12 +151,12 @@ app.factory("storage", ["$http", "$filter", "settings",
           headers: {
             "Content-Type": "application/json"
           }
-        }).success(function(res, status) {
+        }).success(function (res, status) {
           callback(res, status);
         });
       },
 
-      update: function(item, callback) {
+      update: function (item, callback) {
         $http({
           method: "PUT",
           url: settings.apiUrl + "/" + item._id,
@@ -143,16 +164,16 @@ app.factory("storage", ["$http", "$filter", "settings",
           headers: {
             "Content-Type": "application/json"
           }
-        }).success(function(res, status) {
+        }).success(function (res, status) {
           callback(res, status);
         });
       },
 
-      remove: function(item, callback) {
+      remove: function (item, callback) {
         $http({
           method: "DELETE",
           url: settings.apiUrl + "/" + item._id
-        }).success(function(res, status) {
+        }).success(function (res, status) {
           callback(res, status);
         });
       }
@@ -163,41 +184,18 @@ app.factory("storage", ["$http", "$filter", "settings",
 
 
 app.directive("ngControls", ["storage",
-  function(storage) {
+  function (storage) {
     return {
       restrict: "A",
-      link: function(scope) {
+      link: function (scope) {
 
-        scope.remaining = function() {
+        scope.remaining = function () {
           var undone = 0;
-          angular.forEach(scope.todos, function(todo) {
+          angular.forEach(scope.todos, function (todo) {
             undone += todo.done ? 0 : 1;
           });
           return undone;
         };
-
-        // scope.completeAll = function() {
-        //   for (var i = 0; i < scope.todos.length; i++) {
-        //     scope.todos[i].done = true;
-        //   }
-        //   storage.update(scope.todos);
-        // };
-
-        // scope.clearCompleted = function() {
-        //   var completed = function() {
-        //       var returnArray = [];
-        //       for (var i = 0; i < scope.todos.length; i++) {
-        //         if(scope.todos[i].done === true) {
-        //           returnArray.push(scope.todos[i]);
-        //         }
-        //       }
-        //       return returnArray;
-        //     },
-        //   completedItems = completed();
-        //   for (var i = 0; i < completedItems.length; i++) {
-        //     storage.remove(completedItems[i]);
-        //   }
-        // };
 
       }
     };
