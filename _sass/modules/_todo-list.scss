@@ -67,6 +67,26 @@
         background-color: transparent !important;
     }
   }
+  .todo-itemless {
+    @extend .wrap;
+    p {
+      font-size: 1.4em;
+      color: #888;
+      text-align: center;
+    }
+    span {
+      &:before,
+      &:after {
+        display: inline-block;
+      }
+      &:before {
+        content: "“"
+      }
+      &:after {
+        content: "”"
+      }
+    }
+  }
 }
 
 @media (min-width: $screen-tablet-min) and (max-width: $screen-tablet-max) {
